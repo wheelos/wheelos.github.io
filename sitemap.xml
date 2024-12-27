@@ -25,6 +25,14 @@
          <lastmod>2024-12-27</lastmod>
     </url>
     <url>
+         <loc>https://wheelos.github.io/cloud/monitoring/</loc>
+         <lastmod>2024-12-27</lastmod>
+    </url>
+    <url>
+         <loc>https://wheelos.github.io/cloud/remote-driving/</loc>
+         <lastmod>2024-12-27</lastmod>
+    </url>
+    <url>
          <loc>https://wheelos.github.io/documentation/</loc>
          <lastmod>2024-12-27</lastmod>
     </url>
@@ -34,6 +42,18 @@
     </url>
     <url>
          <loc>https://wheelos.github.io/documentation/usage/</loc>
+         <lastmod>2024-12-27</lastmod>
+    </url>
+    <url>
+         <loc>https://wheelos.github.io/hardware/chassis/</loc>
+         <lastmod>2024-12-27</lastmod>
+    </url>
+    <url>
+         <loc>https://wheelos.github.io/hardware/sensor-kits/</loc>
+         <lastmod>2024-12-27</lastmod>
+    </url>
+    <url>
+         <loc>https://wheelos.github.io/software/arch/</loc>
          <lastmod>2024-12-27</lastmod>
     </url>
 </urlset>
