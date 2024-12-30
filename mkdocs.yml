@@ -1,0 +1,23 @@
+site_name: Wheelos
+site_url: https://wheelos.github.io/
+repo_url: https://github.com/wheelos
+theme:
+  name: material
+nav:
+  - Home: index.md
+  - Quick start: quickstart.md
+  - Documentation:
+    - Overview: documentation/index.md
+    - Localization: documentation/localization.md
+    - Perception: documentation/perception.md
+    - Planning: documentation/planning.md
+    - Control: documentation/control.md
+  - Examples:
+    - Overview: examples/index.md #建议添加overview页面
+    - Path Planning: examples/path_planning.md
+    - Vehicle Control: examples/vehicle_control.md
+  - Resources: resources.md
+  - Join: join.md
+  - About: about.md
+extra_css:
+  - css/style.css
