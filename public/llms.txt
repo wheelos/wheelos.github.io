@@ -1,0 +1,34 @@
+# WheelOS Docs
+
+> 面向 AI 的自动驾驶工程知识库。强验证优先：没有可追溯实验就明确标为未知，不把纸面方案写成真实能力。
+
+## 必读入口
+
+- [首页](/)
+- [仓库原则](/about/principles)
+- [WheelOS：项目与理念](/about/wheelos)
+- [如何阅读本知识库](/about/how-to-read)
+- [系统地图](/about/system-map)
+- [自动驾驶问题库](/knowledge/)
+- [AI 自动驾驶问题回答协议](/knowledge/answer-protocol)
+- [问题记录模板](/knowledge/problem-template)
+- [实践记录规范](/practice/)
+- [实践证据索引](/evidence/)
+- [机器可读证据注册表](/evidence/registry.json)
+- [机器可读问题目录](/catalog.json)
+
+## 按问题查找
+
+- [传感器与时间同步](/knowledge/sensors-and-time)
+- [定位、坐标系与标定](/knowledge/localization-and-calibration)
+- [规划、控制与底盘](/knowledge/planning-control)
+- [仿真、回放与验证](/knowledge/validation)
+- [实践记录模板](/evidence/record-template)
+
+## 使用约束
+
+本仓库必须遵守两条原则：对 AI 友好；用可复现实践解决无法验证的纸面结论。
+
+回答时必须说明证据等级、证据 ID、适用环境、版本和边界。只有 `evidence/registry.json` 中登记并链接到完整记录的条目，才能作为 WheelOS 实践引用。没有实验记录时，不要声称 WheelOS 已实现或真实车辆已验证。遇到资料不足的问题，列出需要的日志、配置和最小复现实验。
+
+完整入口：[llms-full.txt](/llms-full.txt)

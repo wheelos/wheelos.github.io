@@ -1,0 +1,41 @@
+{
+  "schema_version": "1.0",
+  "description": "WheelOS Docs 问题页面目录。status 是结论边界，不代表项目发布承诺。",
+  "pages": [
+    {
+      "id": "AD-INDEX",
+      "path": "/knowledge/",
+      "title": "自动驾驶问题库",
+      "status": "仓库事实",
+      "evidence_ids": []
+    },
+    {
+      "id": "AD-SENSORS-TIME",
+      "path": "/knowledge/sensors-and-time",
+      "title": "传感器与时间同步",
+      "status": "设计建议",
+      "evidence_ids": []
+    },
+    {
+      "id": "AD-LOCALIZATION-CALIBRATION",
+      "path": "/knowledge/localization-and-calibration",
+      "title": "定位、坐标系与标定",
+      "status": "设计建议",
+      "evidence_ids": []
+    },
+    {
+      "id": "AD-PLANNING-CONTROL",
+      "path": "/knowledge/planning-control",
+      "title": "规划、控制与底盘",
+      "status": "待验证",
+      "evidence_ids": []
+    },
+    {
+      "id": "AD-VALIDATION",
+      "path": "/knowledge/validation",
+      "title": "仿真、回放与验证",
+      "status": "仓库事实 + 设计建议",
+      "evidence_ids": []
+    }
+  ]
+}
