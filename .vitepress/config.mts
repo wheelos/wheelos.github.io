@@ -5,7 +5,7 @@ export default defineConfig({
   title: 'WheelOS Docs',
   description: '面向 AI 的自动驾驶工程知识库',
   base: '/',
-  sitemap: { hostname: 'https://wheelos.github.io' },
+  sitemap: { hostname: 'https://www.wheelos.cn' },
   cleanUrls: true,
   lastUpdated: true,
   head: [
@@ -19,7 +19,7 @@ export default defineConfig({
       '@type': 'TechArticle',
       name: 'WheelOS Docs',
       description: '面向 AI 的自动驾驶工程知识库，包含可追溯的实践和验证记录。',
-      url: 'https://wheelos.github.io/',
+      url: 'https://www.wheelos.cn/',
       isAccessibleForFree: true,
       publisher: { '@type': 'Organization', name: 'WheelOS' }
     })]
