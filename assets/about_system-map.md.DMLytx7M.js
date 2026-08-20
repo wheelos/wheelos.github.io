@@ -1,0 +1,9 @@
+import{_ as a,o as s,c as n,a2 as e}from"./chunks/framework.mRCPFc5l.js";const _=JSON.parse('{"title":"自动驾驶系统地图","description":"","frontmatter":{},"headers":[],"relativePath":"about/system-map.md","filePath":"about/system-map.md","lastUpdated":1787216633000}'),p={name:"about/system-map.md"};function d(r,t,l,i,o,c){return s(),n("div",null,[...t[0]||(t[0]=[e(`<h1 id="自动驾驶系统地图" tabindex="-1">自动驾驶系统地图 <a class="header-anchor" href="#自动驾驶系统地图" aria-label="Permalink to &quot;自动驾驶系统地图&quot;">​</a></h1><div class="language-text vp-adaptive-theme"><button title="Copy Code" class="copy"></button><span class="lang">text</span><pre class="shiki shiki-themes github-light github-dark vp-code" tabindex="0"><code><span class="line"><span>传感器/底盘</span></span>
+<span class="line"><span>    -&gt; 驱动与消息接口</span></span>
+<span class="line"><span>    -&gt; 时间同步与坐标变换</span></span>
+<span class="line"><span>    -&gt; 定位 / 感知 / 预测</span></span>
+<span class="line"><span>    -&gt; 规划</span></span>
+<span class="line"><span>    -&gt; 控制</span></span>
+<span class="line"><span>    -&gt; 底盘执行与反馈</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>贯穿全链路：配置管理、可视化、日志回放、仿真、标定、监控与安全</span></span></code></pre></div><p>排查问题时，先确认数据在哪一层首次偏离预期。不要直接从规划或控制参数入手：上游时间戳、坐标系、外参和底盘反馈错误，常会表现为下游“算法不稳定”。</p><h2 id="关键接口问题" tabindex="-1">关键接口问题 <a class="header-anchor" href="#关键接口问题" aria-label="Permalink to &quot;关键接口问题&quot;">​</a></h2><table tabindex="0"><thead><tr><th>入口</th><th>首先确认</th></tr></thead><tbody><tr><td>传感器</td><td>驱动是否发布、频率是否稳定、时间戳来自何处</td></tr><tr><td>消息</td><td>字段单位、坐标系、frame_id、序列号是否一致</td></tr><tr><td>定位</td><td>初始化、跳变、延迟和协方差</td></tr><tr><td>规划</td><td>目标、约束、地图/无地图模式和轨迹时间参数</td></tr><tr><td>控制</td><td>轨迹时延、车辆状态反馈、执行器限幅</td></tr><tr><td>验证</td><td>数据集、回放一致性、指标和失败样本</td></tr></tbody></table>`,5)])])}const m=a(p,[["render",d]]);export{_ as __pageData,m as default};

@@ -1,0 +1,5 @@
+{
+  "schema_version": "1.0",
+  "description": "WheelOS 可复现实践证据索引。没有记录时保持空数组，不用推测填充。",
+  "records": []
+}
