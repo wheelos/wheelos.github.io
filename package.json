@@ -4,6 +4,7 @@
   "type": "module",
   "scripts": {
     "docs:dev": "vitepress dev .",
+    "docs:i18n": "node scripts/translate-docs.mjs",
     "docs:generate-ai": "node scripts/generate-ai-index.mjs",
     "docs:check": "node scripts/check-evidence.mjs",
     "docs:build": "npm run docs:check && npm run docs:generate-ai && vitepress build .",

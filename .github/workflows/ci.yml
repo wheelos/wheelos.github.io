@@ -20,6 +20,20 @@ jobs:
           node-version: 20
           cache: npm
       - run: npm ci
+      - name: Restore translation cache
+        uses: actions/cache@v4
+        with:
+          path: |
+            .i18n-cache
+            en
+          key: docs-i18n-${{ runner.os }}-${{ hashFiles('**/*.md') }}
+      - name: Generate English documentation
+        if: ${{ secrets.TRANSLATION_API_KEY != '' }}
+        env:
+          TRANSLATION_API_KEY: ${{ secrets.TRANSLATION_API_KEY }}
+          TRANSLATION_API_URL: ${{ vars.TRANSLATION_API_URL || 'https://api.openai.com/v1/chat/completions' }}
+          TRANSLATION_MODEL: ${{ vars.TRANSLATION_MODEL || 'gpt-4o-mini' }}
+        run: npm run docs:i18n
       - run: npm run docs:build
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v4
