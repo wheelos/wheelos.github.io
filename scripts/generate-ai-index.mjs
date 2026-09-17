@@ -1,7 +1,7 @@
 import { mkdir, readdir, readFile, writeFile } from 'node:fs/promises'
 import { join } from 'node:path'
 
-const roots = ['about', 'knowledge', 'practice', 'evidence', 'organization', 'roadmap']
+const roots = ['about', 'knowledge', 'resources', 'practice', 'evidence', 'organization', 'roadmap']
 const pages = []
 
 async function collect(directory) {

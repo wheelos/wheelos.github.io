@@ -2,3 +2,5 @@ node_modules/
 .vitepress/dist/
 .vitepress/cache/
 public/evidence/
+/en/
+/.i18n-cache/

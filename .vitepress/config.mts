@@ -1,7 +1,14 @@
 import { defineConfig } from 'vitepress'
+import { existsSync } from 'node:fs'
+
+const hasEnglish = existsSync('en/index.md')
 
 export default defineConfig({
   lang: 'zh-CN',
+  locales: hasEnglish ? {
+    root: { label: '简体中文', lang: 'zh-CN' },
+    en: { label: 'English', lang: 'en', link: '/en/' }
+  } : undefined,
   title: 'WheelOS Docs',
   description: '面向 AI 的自动驾驶工程知识库',
   base: '/',
@@ -25,10 +32,22 @@ export default defineConfig({
     })]
   ],
   themeConfig: {
+    locales: hasEnglish ? {
+      root: {
+        label: '简体中文',
+        lang: 'zh-CN'
+      },
+      en: {
+        label: 'English',
+        lang: 'en',
+        link: '/en/'
+      }
+    } : undefined,
     nav: [
       { text: '首页', link: '/' },
       { text: '开始了解', link: '/about/wheelos' },
       { text: '自动驾驶问题库', link: '/knowledge/' },
+      { text: '资源下载', link: '/resources/' },
       { text: '实践记录', link: '/practice/' },
       { text: '证据索引', link: '/evidence/' },
       { text: 'GitHub', link: 'https://github.com/wheelos' }
@@ -59,6 +78,12 @@ export default defineConfig({
           ]
         }
       ],
+      '/resources/': [
+        {
+          text: '自动驾驶资源下载',
+          items: [{ text: '资源总览与下载', link: '/resources/' }]
+        }
+      ],
       '/practice/': [
         {
           text: '实践记录',
@@ -83,7 +108,34 @@ export default defineConfig({
       ],
       '/roadmap/': [
         { text: '路线图', items: [{ text: '2025 路线图', link: '/roadmap/2025' }] }
-      ]
+      ],
+      ...(hasEnglish ? {
+        '/en/': [
+          {
+            text: 'WheelOS',
+            items: [
+              { text: 'Project and principles', link: '/en/about/wheelos' },
+              { text: 'How to read', link: '/en/about/how-to-read' },
+              { text: 'System map', link: '/en/about/system-map' }
+            ]
+          },
+          {
+            text: 'Autonomous driving knowledge',
+            items: [{ text: 'Knowledge base', link: '/en/knowledge/' }]
+          },
+          {
+            text: 'Apollo Lite resources',
+            items: [{ text: 'Resources', link: '/en/resources/' }]
+          },
+          {
+            text: 'Practice and evidence',
+            items: [
+              { text: 'Practice records', link: '/en/practice/' },
+              { text: 'Evidence index', link: '/en/evidence/' }
+            ]
+          }
+        ]
+      } : {})
     },
     socialLinks: [{ icon: 'github', link: 'https://github.com/wheelos' }],
     search: { provider: 'local' },

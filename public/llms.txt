@@ -10,6 +10,7 @@
 - [如何阅读本知识库](/about/how-to-read)
 - [系统地图](/about/system-map)
 - [自动驾驶问题库](/knowledge/)
+- [自动驾驶资源下载](/resources/)
 - [AI 自动驾驶问题回答协议](/knowledge/answer-protocol)
 - [问题记录模板](/knowledge/problem-template)
 - [实践记录规范](/practice/)
