@@ -1,3 +1,13 @@
+---
+title: 定位、坐标系与标定
+description: 在调整算法参数前验证坐标系、单位、外参和定位时序。
+content_type: knowledge
+status: 设计建议
+scope: 定位和多传感器坐标处理
+keywords: [定位, frame_id, 外参标定, 坐标变换]
+evidence_ids: []
+---
+
 # 定位、坐标系与标定
 
 **状态：** `设计建议` · **关键原则：** 先证明坐标和标定，再调算法参数

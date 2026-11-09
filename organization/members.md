@@ -1,19 +1,27 @@
-# Organization Members
+---
+title: 社区成员
+description: WheelOS 技术委员会、运营委员会和贡献者名单。
+status: 仓库事实
+content_type: organization
+keywords: [WheelOS, 社区成员, 技术委员会, 贡献者]
+---
 
-## Technical Steering Committee (TSC)
+# 社区成员
 
-| Member                                   | Role            |
-|------------------------------------------|-----------------|
-| [daohu527](https://github.com/daohu527)  | Core Maintainer |
+## 技术指导委员会（TSC）
 
-## Operations Committee
+| 成员 | 角色 |
+| --- | --- |
+| [daohu527](https://github.com/daohu527) | 核心维护者 |
 
-| Member | Role                                |
-|--------|-------------------------------------|
-| TBD    | [Add description if available]      |
+## 运营委员会
 
-## Contributors
+| 成员 | 角色 |
+| --- | --- |
+| 待补充 | 待补充成员信息 |
 
-| Member | Role                                |
-|--------|-------------------------------------|
-| TBD    | [Add description if available]      |
+## 贡献者
+
+| 成员 | 角色 |
+| --- | --- |
+| 待补充 | 待补充贡献者信息 |

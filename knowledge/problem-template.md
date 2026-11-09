@@ -2,6 +2,9 @@
 title: 自动驾驶问题记录模板
 description: 将自动驾驶故障、设计问题和验证结果写成 AI 可检索、可复现的知识条目。
 status: 仓库事实
+content_type: template
+keywords: [问题模板, 可复现, 证据, AI 检索]
+evidence_ids: []
 ---
 
 # 自动驾驶问题记录模板

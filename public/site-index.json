@@ -1,0 +1,1438 @@
+{
+  "schema_version": "1.0",
+  "generated_by": "scripts/generate-ai-index.mjs",
+  "site_url": "https://www.wheelos.cn",
+  "languages": [
+    "zh-CN",
+    "en"
+  ],
+  "bilingual_pairs": 25,
+  "authority_model": {
+    "safety_or_performance_claim": "Use evidence/registry.json and the linked verified or partially verified record. A product page alone is insufficient.",
+    "offered_configuration_or_price": "Use the product page for scope and request a formal quotation; do not infer validation.",
+    "engineering_guidance": "Use the knowledge page and preserve its status_code, scope and limitations.",
+    "application_fit": "Application pages are market and deployment guidance. Validate task frequency, route, operating owner, regulation, insurance and unit economics before quoting.",
+    "planned_capability": "Roadmap content is planned, not proof of a delivered or validated capability."
+  },
+  "status_taxonomy": [
+    {
+      "code": "repository-fact",
+      "zh-CN": "仓库事实",
+      "en": "repository fact"
+    },
+    {
+      "code": "product-specification",
+      "zh-CN": "产品规格",
+      "en": "product specification"
+    },
+    {
+      "code": "design-guidance",
+      "zh-CN": "设计建议",
+      "en": "design guidance"
+    },
+    {
+      "code": "partially-verified",
+      "zh-CN": "部分验证",
+      "en": "partially verified"
+    },
+    {
+      "code": "verified",
+      "zh-CN": "已验证",
+      "en": "verified"
+    },
+    {
+      "code": "pending-verification",
+      "zh-CN": "待验证",
+      "en": "pending verification"
+    },
+    {
+      "code": "planned",
+      "zh-CN": "计划能力",
+      "en": "planned capability"
+    }
+  ],
+  "evidence_registry": {
+    "url": "https://www.wheelos.cn/evidence/registry.json",
+    "record_count": 0
+  },
+  "pages": [
+    {
+      "logical_id": "HOME",
+      "translation_key": "index.md",
+      "content_type": "landing",
+      "status": "产品规格",
+      "status_code": "product-specification",
+      "languages": {
+        "zh-CN": {
+          "title": "WheelOS 自动驾驶解决方案与工程知识",
+          "description": "面向工业制造、医疗、零售、物流园区和大型机构的短途自动驾驶运输解决方案，以及双语工程知识和验证入口。",
+          "route": "/",
+          "url": "https://www.wheelos.cn/",
+          "content_type": "landing",
+          "status": "产品规格",
+          "status_code": "product-specification",
+          "claim_type": "product-specification",
+          "scope": "",
+          "keywords": [
+            "自动驾驶",
+            "解决方案",
+            "工程知识",
+            "证据",
+            "WheelOS"
+          ],
+          "evidence_ids": [],
+          "decision_summary": "WheelOS 面向工厂、医院、零售、物流园区和大型机构的重复性短途运输，提供场景筛选、一体化自动驾驶套件和项目服务。",
+          "best_for": [
+            "高频短途运输",
+            "固定路线",
+            "标准交接",
+            "园区低速场景",
+            "明确运营主体"
+          ],
+          "not_for": [
+            "低频展示项目",
+            "未确认底盘",
+            "未解决法规保险",
+            "快递末端配送"
+          ],
+          "next_action": "先提交运输任务做适用性评估，再讨论套件配置、集成和商业模式。",
+          "cta_url": "mailto:support@wheelos.cn?subject=WheelOS%20short-distance%20transport%20assessment",
+          "source_path": "index.md"
+        },
+        "en": {
+          "title": "WheelOS | Integrated Autonomous Driving Solutions",
+          "description": "Short-distance autonomous transport solutions for manufacturing, healthcare, retail, logistics campuses and specialized sites, with bilingual engineering knowledge and evidence.",
+          "route": "/en/",
+          "url": "https://www.wheelos.cn/en/",
+          "content_type": "landing",
+          "status": "Product specification",
+          "status_code": "product-specification",
+          "claim_type": "product-specification",
+          "scope": "",
+          "keywords": [
+            "autonomous driving",
+            "solutions",
+            "engineering knowledge",
+            "evidence",
+            "WheelOS"
+          ],
+          "evidence_ids": [],
+          "decision_summary": "WheelOS supports repetitive short-distance transport for factories, hospitals, retailers, logistics parks and large institutions through application screening, an integrated autonomous-driving kit and project services.",
+          "best_for": [
+            "frequent short-distance transport",
+            "fixed routes",
+            "standardized handoffs",
+            "controlled-site low-speed operation",
+            "a clear operating owner"
+          ],
+          "not_for": [
+            "low-frequency demonstrations",
+            "unconfirmed chassis interfaces",
+            "unresolved regulation or insurance",
+            "parcel last-mile delivery"
+          ],
+          "next_action": "Submit the transport task for a fit assessment, then discuss kit configuration, integration and commercial structure.",
+          "cta_url": "mailto:support@wheelos.cn?subject=WheelOS%20short-distance%20transport%20assessment",
+          "source_path": "en/index.md"
+        }
+      }
+    },
+    {
+      "logical_id": "ABOUT-HOW-TO-READ",
+      "translation_key": "about/how-to-read.md",
+      "content_type": "methodology",
+      "status": "仓库事实",
+      "status_code": "repository-fact",
+      "languages": {
+        "zh-CN": {
+          "title": "如何阅读 WheelOS 知识库和产品资料",
+          "description": "理解 WheelOS 的 AI 检索入口、页面类型、证据门槛、产品边界和双语规则。",
+          "route": "/about/how-to-read",
+          "url": "https://www.wheelos.cn/about/how-to-read",
+          "content_type": "methodology",
+          "status": "仓库事实",
+          "status_code": "repository-fact",
+          "claim_type": "repository-fact",
+          "scope": "",
+          "keywords": [
+            "AI Agent",
+            "检索",
+            "证据等级",
+            "产品边界",
+            "双语"
+          ],
+          "evidence_ids": [],
+          "source_path": "about/how-to-read.md"
+        },
+        "en": {
+          "title": "How to read WheelOS product and engineering material",
+          "description": "How to interpret product specifications, engineering guidance, reproducible evidence, page types and bilingual parity in WheelOS.",
+          "route": "/en/about/how-to-read",
+          "url": "https://www.wheelos.cn/en/about/how-to-read",
+          "content_type": "methodology",
+          "status": "repository fact",
+          "status_code": "repository-fact",
+          "claim_type": "repository-fact",
+          "scope": "",
+          "keywords": [
+            "AI agent",
+            "evidence level",
+            "citation rules",
+            "reproducible experiments"
+          ],
+          "evidence_ids": [],
+          "source_path": "en/about/how-to-read.md"
+        }
+      }
+    },
+    {
+      "logical_id": "ABOUT-PRINCIPLES",
+      "translation_key": "about/principles.md",
+      "content_type": "principle",
+      "status": "仓库事实",
+      "status_code": "repository-fact",
+      "languages": {
+        "zh-CN": {
+          "title": "仓库原则",
+          "description": "WheelOS 的中英文 AI 检索、证据分级、产品规格和自动驾驶安全验证原则。",
+          "route": "/about/principles",
+          "url": "https://www.wheelos.cn/about/principles",
+          "content_type": "principle",
+          "status": "仓库事实",
+          "status_code": "repository-fact",
+          "claim_type": "repository-fact",
+          "scope": "",
+          "keywords": [
+            "AI 检索",
+            "证据等级",
+            "可复现",
+            "SOTIF",
+            "ISO 26262",
+            "产品规格"
+          ],
+          "evidence_ids": [],
+          "source_path": "about/principles.md"
+        },
+        "en": {
+          "title": "Repository principles",
+          "description": "WheelOS principles for bilingual AI retrieval, evidence levels, product specifications, and autonomous-driving validation.",
+          "route": "/en/about/principles",
+          "url": "https://www.wheelos.cn/en/about/principles",
+          "content_type": "principle",
+          "status": "repository fact",
+          "status_code": "repository-fact",
+          "claim_type": "repository-fact",
+          "scope": "",
+          "keywords": [
+            "AI retrieval",
+            "evidence level",
+            "reproducibility",
+            "SOTIF",
+            "ISO 26262",
+            "product specification"
+          ],
+          "evidence_ids": [],
+          "source_path": "en/about/principles.md"
+        }
+      }
+    },
+    {
+      "logical_id": "ABOUT-SYSTEM-MAP",
+      "translation_key": "about/system-map.md",
+      "content_type": "guide",
+      "status": "设计建议",
+      "status_code": "design-guidance",
+      "languages": {
+        "zh-CN": {
+          "title": "自动驾驶系统地图",
+          "description": "从传感器和底盘接口，经时间同步、感知、规划与控制，到验证的分层诊断地图。",
+          "route": "/about/system-map",
+          "url": "https://www.wheelos.cn/about/system-map",
+          "content_type": "guide",
+          "status": "设计建议",
+          "status_code": "design-guidance",
+          "claim_type": "design-guidance",
+          "scope": "",
+          "keywords": [
+            "系统架构",
+            "时间同步",
+            "坐标系",
+            "规划",
+            "控制"
+          ],
+          "evidence_ids": [],
+          "source_path": "about/system-map.md"
+        },
+        "en": {
+          "title": "Autonomous-driving system map",
+          "description": "A layer-by-layer diagnostic map from sensors and chassis interfaces through perception, planning, control, and validation.",
+          "route": "/en/about/system-map",
+          "url": "https://www.wheelos.cn/en/about/system-map",
+          "content_type": "guide",
+          "status": "design guidance",
+          "status_code": "design-guidance",
+          "claim_type": "design-guidance",
+          "scope": "",
+          "keywords": [
+            "system architecture",
+            "time synchronization",
+            "coordinate frames",
+            "planning",
+            "control"
+          ],
+          "evidence_ids": [],
+          "source_path": "en/about/system-map.md"
+        }
+      }
+    },
+    {
+      "logical_id": "ABOUT-WHEELOS",
+      "translation_key": "about/wheelos.md",
+      "content_type": "overview",
+      "status": "仓库事实",
+      "status_code": "repository-fact",
+      "languages": {
+        "zh-CN": {
+          "title": "WheelOS：项目与理念",
+          "description": "WheelOS 的产品与知识定位、证据优先原则，以及商业解决方案与工程验证的边界。",
+          "route": "/about/wheelos",
+          "url": "https://www.wheelos.cn/about/wheelos",
+          "content_type": "overview",
+          "status": "仓库事实",
+          "status_code": "repository-fact",
+          "claim_type": "repository-fact",
+          "scope": "",
+          "keywords": [
+            "WheelOS",
+            "Wheel.OS",
+            "Wheel.App",
+            "证据优先",
+            "自动驾驶"
+          ],
+          "evidence_ids": [],
+          "source_path": "about/wheelos.md"
+        },
+        "en": {
+          "title": "WheelOS: project and principles",
+          "description": "WheelOS product and knowledge positioning, evidence-first principles, and the boundary between commercial solutions and engineering verification.",
+          "route": "/en/about/wheelos",
+          "url": "https://www.wheelos.cn/en/about/wheelos",
+          "content_type": "overview",
+          "status": "repository fact",
+          "status_code": "repository-fact",
+          "claim_type": "repository-fact",
+          "scope": "",
+          "keywords": [
+            "WheelOS",
+            "Wheel.OS",
+            "Wheel.App",
+            "evidence-first",
+            "autonomous driving"
+          ],
+          "evidence_ids": [],
+          "source_path": "en/about/wheelos.md"
+        }
+      }
+    },
+    {
+      "logical_id": "EVIDENCE",
+      "translation_key": "evidence/index.md",
+      "content_type": "evidence",
+      "status": "仓库事实",
+      "status_code": "repository-fact",
+      "languages": {
+        "zh-CN": {
+          "title": "实践证据索引",
+          "description": "WheelOS 自动驾驶实验、复现步骤、结果、复核状态和适用边界。",
+          "route": "/evidence/",
+          "url": "https://www.wheelos.cn/evidence/",
+          "content_type": "evidence",
+          "status": "仓库事实",
+          "status_code": "repository-fact",
+          "claim_type": "repository-fact",
+          "scope": "",
+          "keywords": [
+            "证据",
+            "注册表",
+            "可复现",
+            "复核",
+            "安全边界"
+          ],
+          "evidence_ids": [],
+          "source_path": "evidence/index.md"
+        },
+        "en": {
+          "title": "Practice evidence index",
+          "description": "WheelOS experiments, reproduction steps, results and applicability boundaries for autonomous-driving claims.",
+          "route": "/en/evidence/",
+          "url": "https://www.wheelos.cn/en/evidence/",
+          "content_type": "evidence",
+          "status": "Repository fact",
+          "status_code": "repository-fact",
+          "claim_type": "repository-fact",
+          "scope": "",
+          "keywords": [
+            "evidence",
+            "registry",
+            "reproducibility",
+            "review",
+            "safety boundary"
+          ],
+          "evidence_ids": [],
+          "source_path": "en/evidence/index.md"
+        }
+      }
+    },
+    {
+      "logical_id": "EVIDENCE-RECORD-TEMPLATE",
+      "translation_key": "evidence/record-template.md",
+      "content_type": "template",
+      "status": "待验证",
+      "status_code": "pending-verification",
+      "languages": {
+        "zh-CN": {
+          "title": "[问题]：[一句话结论]",
+          "description": "WheelOS 实践证据记录模板，包含环境、步骤、结果、边界和复核字段。",
+          "route": "/evidence/record-template",
+          "url": "https://www.wheelos.cn/evidence/record-template",
+          "content_type": "template",
+          "status": "待验证",
+          "status_code": "pending-verification",
+          "claim_type": "pending-verification",
+          "scope": "",
+          "keywords": [
+            "证据模板",
+            "复现",
+            "测试环境",
+            "指标",
+            "复核"
+          ],
+          "evidence_ids": [],
+          "source_path": "evidence/record-template.md"
+        },
+        "en": {
+          "title": "[Problem]: [one-sentence conclusion]",
+          "description": "WheelOS evidence record template with environment, procedure, result, boundary and review fields.",
+          "route": "/en/evidence/record-template",
+          "url": "https://www.wheelos.cn/en/evidence/record-template",
+          "content_type": "template",
+          "status": "Pending verification",
+          "status_code": "pending-verification",
+          "claim_type": "pending-verification",
+          "scope": "",
+          "keywords": [
+            "evidence template",
+            "reproduction",
+            "test environment",
+            "metrics",
+            "review"
+          ],
+          "evidence_ids": [],
+          "source_path": "en/evidence/record-template.md"
+        }
+      }
+    },
+    {
+      "logical_id": "KNOWLEDGE-ANSWER-PROTOCOL",
+      "translation_key": "knowledge/answer-protocol.md",
+      "content_type": "methodology",
+      "status": "仓库事实",
+      "status_code": "repository-fact",
+      "languages": {
+        "zh-CN": {
+          "title": "AI 自动驾驶问题回答协议",
+          "description": "使用 WheelOS Docs 分析自动驾驶问题时的固定判断、排查、验证和引用流程。",
+          "route": "/knowledge/answer-protocol",
+          "url": "https://www.wheelos.cn/knowledge/answer-protocol",
+          "content_type": "methodology",
+          "status": "仓库事实",
+          "status_code": "repository-fact",
+          "claim_type": "repository-fact",
+          "scope": "",
+          "keywords": [
+            "AI Agent",
+            "故障排查",
+            "引用",
+            "证据",
+            "产品规格"
+          ],
+          "evidence_ids": [],
+          "source_path": "knowledge/answer-protocol.md"
+        },
+        "en": {
+          "title": "AI autonomous-driving answer protocol",
+          "description": "A fixed procedure for AI agents to classify, diagnose, validate and cite autonomous-driving problems in WheelOS.",
+          "route": "/en/knowledge/answer-protocol",
+          "url": "https://www.wheelos.cn/en/knowledge/answer-protocol",
+          "content_type": "methodology",
+          "status": "Repository fact",
+          "status_code": "repository-fact",
+          "claim_type": "repository-fact",
+          "scope": "",
+          "keywords": [
+            "AI agent",
+            "troubleshooting",
+            "citation",
+            "evidence",
+            "product specification"
+          ],
+          "evidence_ids": [],
+          "source_path": "en/knowledge/answer-protocol.md"
+        }
+      }
+    },
+    {
+      "logical_id": "KNOWLEDGE",
+      "translation_key": "knowledge/index.md",
+      "content_type": "knowledge",
+      "status": "仓库事实",
+      "status_code": "repository-fact",
+      "languages": {
+        "zh-CN": {
+          "title": "自动驾驶问题库",
+          "description": "按可观察症状、证据状态和可复现诊断路径组织的自动驾驶问题库。",
+          "route": "/knowledge/",
+          "url": "https://www.wheelos.cn/knowledge/",
+          "content_type": "knowledge",
+          "status": "仓库事实",
+          "status_code": "repository-fact",
+          "claim_type": "repository-fact",
+          "scope": "",
+          "keywords": [
+            "自动驾驶",
+            "故障排查",
+            "传感器融合",
+            "定位",
+            "规划",
+            "验证"
+          ],
+          "evidence_ids": [],
+          "source_path": "knowledge/index.md"
+        },
+        "en": {
+          "title": "Autonomous-driving knowledge base",
+          "description": "Problem-oriented autonomous-driving guidance organized around observable symptoms, evidence status, and reproducible diagnostics.",
+          "route": "/en/knowledge/",
+          "url": "https://www.wheelos.cn/en/knowledge/",
+          "content_type": "knowledge",
+          "status": "repository fact",
+          "status_code": "repository-fact",
+          "claim_type": "repository-fact",
+          "scope": "",
+          "keywords": [
+            "autonomous driving",
+            "troubleshooting",
+            "sensor fusion",
+            "localization",
+            "planning",
+            "validation"
+          ],
+          "evidence_ids": [],
+          "source_path": "en/knowledge/index.md"
+        }
+      }
+    },
+    {
+      "logical_id": "KNOWLEDGE-LOCALIZATION-AND-CALIBRATION",
+      "translation_key": "knowledge/localization-and-calibration.md",
+      "content_type": "knowledge",
+      "status": "设计建议",
+      "status_code": "design-guidance",
+      "languages": {
+        "zh-CN": {
+          "title": "定位、坐标系与标定",
+          "description": "在调整算法参数前验证坐标系、单位、外参和定位时序。",
+          "route": "/knowledge/localization-and-calibration",
+          "url": "https://www.wheelos.cn/knowledge/localization-and-calibration",
+          "content_type": "knowledge",
+          "status": "设计建议",
+          "status_code": "design-guidance",
+          "claim_type": "design-guidance",
+          "scope": "定位和多传感器坐标处理",
+          "keywords": [
+            "定位",
+            "frame_id",
+            "外参标定",
+            "坐标变换"
+          ],
+          "evidence_ids": [],
+          "source_path": "knowledge/localization-and-calibration.md"
+        },
+        "en": {
+          "title": "Localization, coordinate frames, and calibration",
+          "description": "Verify coordinate frames, units, extrinsics, and localization timing before tuning algorithm parameters.",
+          "route": "/en/knowledge/localization-and-calibration",
+          "url": "https://www.wheelos.cn/en/knowledge/localization-and-calibration",
+          "content_type": "knowledge",
+          "status": "design guidance",
+          "status_code": "design-guidance",
+          "claim_type": "design-guidance",
+          "scope": "localization and multi-sensor coordinate handling",
+          "keywords": [
+            "localization",
+            "frame_id",
+            "extrinsic calibration",
+            "coordinate transform"
+          ],
+          "evidence_ids": [],
+          "source_path": "en/knowledge/localization-and-calibration.md"
+        }
+      }
+    },
+    {
+      "logical_id": "KNOWLEDGE-PLANNING-CONTROL",
+      "translation_key": "knowledge/planning-control.md",
+      "content_type": "knowledge",
+      "status": "待验证",
+      "status_code": "pending-verification",
+      "languages": {
+        "zh-CN": {
+          "title": "规划、控制与底盘",
+          "description": "当轨迹可行但车辆无法跟踪时，分离轨迹质量、传输延迟、控制行为和执行器限制。",
+          "route": "/knowledge/planning-control",
+          "url": "https://www.wheelos.cn/knowledge/planning-control",
+          "content_type": "knowledge",
+          "status": "待验证",
+          "status_code": "pending-verification",
+          "claim_type": "pending-verification",
+          "scope": "规划、控制和底盘集成",
+          "keywords": [
+            "规划",
+            "控制",
+            "底盘",
+            "延迟",
+            "执行器限制"
+          ],
+          "evidence_ids": [],
+          "source_path": "knowledge/planning-control.md"
+        },
+        "en": {
+          "title": "Planning, control, and chassis",
+          "description": "Separate trajectory quality, transport latency, controller behavior, and actuator limits when the vehicle cannot follow a valid path.",
+          "route": "/en/knowledge/planning-control",
+          "url": "https://www.wheelos.cn/en/knowledge/planning-control",
+          "content_type": "knowledge",
+          "status": "pending verification",
+          "status_code": "pending-verification",
+          "claim_type": "pending-verification",
+          "scope": "planning, control, and chassis integration",
+          "keywords": [
+            "planning",
+            "control",
+            "chassis",
+            "latency",
+            "actuator limit"
+          ],
+          "evidence_ids": [],
+          "source_path": "en/knowledge/planning-control.md"
+        }
+      }
+    },
+    {
+      "logical_id": "KNOWLEDGE-PROBLEM-TEMPLATE",
+      "translation_key": "knowledge/problem-template.md",
+      "content_type": "template",
+      "status": "仓库事实",
+      "status_code": "repository-fact",
+      "languages": {
+        "zh-CN": {
+          "title": "自动驾驶问题记录模板",
+          "description": "将自动驾驶故障、设计问题和验证结果写成 AI 可检索、可复现的知识条目。",
+          "route": "/knowledge/problem-template",
+          "url": "https://www.wheelos.cn/knowledge/problem-template",
+          "content_type": "template",
+          "status": "仓库事实",
+          "status_code": "repository-fact",
+          "claim_type": "repository-fact",
+          "scope": "",
+          "keywords": [
+            "问题模板",
+            "可复现",
+            "证据",
+            "AI 检索"
+          ],
+          "evidence_ids": [],
+          "source_path": "knowledge/problem-template.md"
+        },
+        "en": {
+          "title": "Autonomous-driving problem template",
+          "description": "Template for turning an autonomous-driving fault or design question into an AI-searchable and reproducible knowledge record.",
+          "route": "/en/knowledge/problem-template",
+          "url": "https://www.wheelos.cn/en/knowledge/problem-template",
+          "content_type": "template",
+          "status": "repository fact",
+          "status_code": "repository-fact",
+          "claim_type": "repository-fact",
+          "scope": "",
+          "keywords": [
+            "problem template",
+            "reproducibility",
+            "evidence",
+            "AI retrieval"
+          ],
+          "evidence_ids": [],
+          "source_path": "en/knowledge/problem-template.md"
+        }
+      }
+    },
+    {
+      "logical_id": "KNOWLEDGE-SENSORS-AND-TIME",
+      "translation_key": "knowledge/sensors-and-time.md",
+      "content_type": "knowledge",
+      "status": "设计建议",
+      "status_code": "design-guidance",
+      "languages": {
+        "zh-CN": {
+          "title": "传感器与时间同步",
+          "description": "排查表现为多传感器融合不稳定的时间戳、延迟和同步问题。",
+          "route": "/knowledge/sensors-and-time",
+          "url": "https://www.wheelos.cn/knowledge/sensors-and-time",
+          "content_type": "knowledge",
+          "status": "设计建议",
+          "status_code": "design-guidance",
+          "claim_type": "design-guidance",
+          "scope": "多传感器自动驾驶链路",
+          "keywords": [
+            "传感器时间戳",
+            "延迟",
+            "PTP",
+            "融合抖动",
+            "Cyber RT"
+          ],
+          "evidence_ids": [],
+          "source_path": "knowledge/sensors-and-time.md"
+        },
+        "en": {
+          "title": "Sensors and time synchronization",
+          "description": "Diagnose timestamp, latency, and synchronization problems that appear as unstable multi-sensor fusion.",
+          "route": "/en/knowledge/sensors-and-time",
+          "url": "https://www.wheelos.cn/en/knowledge/sensors-and-time",
+          "content_type": "knowledge",
+          "status": "design guidance",
+          "status_code": "design-guidance",
+          "claim_type": "design-guidance",
+          "scope": "multi-sensor autonomous-driving pipelines",
+          "keywords": [
+            "sensor timestamp",
+            "latency",
+            "PTP",
+            "fusion jitter",
+            "Cyber RT"
+          ],
+          "evidence_ids": [],
+          "source_path": "en/knowledge/sensors-and-time.md"
+        }
+      }
+    },
+    {
+      "logical_id": "KNOWLEDGE-VALIDATION",
+      "translation_key": "knowledge/validation.md",
+      "content_type": "knowledge",
+      "status": "设计建议",
+      "status_code": "design-guidance",
+      "languages": {
+        "zh-CN": {
+          "title": "仿真、回放与验证",
+          "description": "说明各验证层级能证明什么、不能证明什么，并定义安全声明边界。",
+          "route": "/knowledge/validation",
+          "url": "https://www.wheelos.cn/knowledge/validation",
+          "content_type": "knowledge",
+          "status": "设计建议",
+          "status_code": "design-guidance",
+          "claim_type": "design-guidance",
+          "scope": "自动驾驶验证与确认策略",
+          "keywords": [
+            "仿真",
+            "回放",
+            "SIL",
+            "HIL",
+            "封闭场地",
+            "安全论证"
+          ],
+          "evidence_ids": [],
+          "source_path": "knowledge/validation.md"
+        },
+        "en": {
+          "title": "Simulation, replay, and validation",
+          "description": "Map each validation level to what it can and cannot establish for autonomous-driving claims.",
+          "route": "/en/knowledge/validation",
+          "url": "https://www.wheelos.cn/en/knowledge/validation",
+          "content_type": "knowledge",
+          "status": "design guidance",
+          "status_code": "design-guidance",
+          "claim_type": "design-guidance",
+          "scope": "verification and validation strategy",
+          "keywords": [
+            "simulation",
+            "replay",
+            "SIL",
+            "HIL",
+            "closed course",
+            "safety case"
+          ],
+          "evidence_ids": [],
+          "source_path": "en/knowledge/validation.md"
+        }
+      }
+    },
+    {
+      "logical_id": "ORGANIZATION-MEMBERS",
+      "translation_key": "organization/members.md",
+      "content_type": "organization",
+      "status": "仓库事实",
+      "status_code": "repository-fact",
+      "languages": {
+        "zh-CN": {
+          "title": "社区成员",
+          "description": "WheelOS 技术委员会、运营委员会和贡献者名单。",
+          "route": "/organization/members",
+          "url": "https://www.wheelos.cn/organization/members",
+          "content_type": "organization",
+          "status": "仓库事实",
+          "status_code": "repository-fact",
+          "claim_type": "repository-fact",
+          "scope": "",
+          "keywords": [
+            "WheelOS",
+            "社区成员",
+            "技术委员会",
+            "贡献者"
+          ],
+          "evidence_ids": [],
+          "source_path": "organization/members.md"
+        },
+        "en": {
+          "title": "Community members",
+          "description": "WheelOS Technical Steering Committee, Operations Committee and contributor roster.",
+          "route": "/en/organization/members",
+          "url": "https://www.wheelos.cn/en/organization/members",
+          "content_type": "organization",
+          "status": "Repository fact",
+          "status_code": "repository-fact",
+          "claim_type": "repository-fact",
+          "scope": "",
+          "keywords": [
+            "WheelOS",
+            "community members",
+            "Technical Steering Committee",
+            "contributors"
+          ],
+          "evidence_ids": [],
+          "source_path": "en/organization/members.md"
+        }
+      }
+    },
+    {
+      "logical_id": "ORGANIZATION-ORGANIZATION",
+      "translation_key": "organization/organization.md",
+      "content_type": "organization",
+      "status": "仓库事实",
+      "status_code": "repository-fact",
+      "languages": {
+        "zh-CN": {
+          "title": "WheelOS 开源社区结构",
+          "description": "WheelOS 开源社区的技术委员会、运营委员会、贡献者和协作方式。",
+          "route": "/organization/organization",
+          "url": "https://www.wheelos.cn/organization/organization",
+          "content_type": "organization",
+          "status": "仓库事实",
+          "status_code": "repository-fact",
+          "claim_type": "repository-fact",
+          "scope": "",
+          "keywords": [
+            "WheelOS",
+            "开源社区",
+            "治理",
+            "协作方式"
+          ],
+          "evidence_ids": [],
+          "source_path": "organization/organization.md"
+        },
+        "en": {
+          "title": "WheelOS open-source community structure",
+          "description": "WheelOS technical steering, operations, contributors and collaboration model.",
+          "route": "/en/organization/organization",
+          "url": "https://www.wheelos.cn/en/organization/organization",
+          "content_type": "organization",
+          "status": "Repository fact",
+          "status_code": "repository-fact",
+          "claim_type": "repository-fact",
+          "scope": "",
+          "keywords": [
+            "WheelOS",
+            "open-source community",
+            "governance",
+            "collaboration"
+          ],
+          "evidence_ids": [],
+          "source_path": "en/organization/organization.md"
+        }
+      }
+    },
+    {
+      "logical_id": "PRACTICE-HYPOTHESES",
+      "translation_key": "practice/hypotheses.md",
+      "content_type": "evidence",
+      "status": "待验证",
+      "status_code": "pending-verification",
+      "languages": {
+        "zh-CN": {
+          "title": "待验证假设",
+          "description": "可用于设计实验、但不能作为 WheelOS 已验证能力推荐的工程假设。",
+          "route": "/practice/hypotheses",
+          "url": "https://www.wheelos.cn/practice/hypotheses",
+          "content_type": "evidence",
+          "status": "待验证",
+          "status_code": "pending-verification",
+          "claim_type": "pending-verification",
+          "scope": "",
+          "keywords": [
+            "假设",
+            "时间戳",
+            "标定",
+            "控制延迟"
+          ],
+          "evidence_ids": [],
+          "source_path": "practice/hypotheses.md"
+        },
+        "en": {
+          "title": "Pending hypotheses",
+          "description": "Plausible but unverified judgments that can guide experiments but must not be recommended as supported capabilities.",
+          "route": "/en/practice/hypotheses",
+          "url": "https://www.wheelos.cn/en/practice/hypotheses",
+          "content_type": "evidence",
+          "status": "Pending verification",
+          "status_code": "pending-verification",
+          "claim_type": "pending-verification",
+          "scope": "",
+          "keywords": [
+            "hypotheses",
+            "timestamp",
+            "calibration",
+            "control latency"
+          ],
+          "evidence_ids": [],
+          "source_path": "en/practice/hypotheses.md"
+        }
+      }
+    },
+    {
+      "logical_id": "PRACTICE",
+      "translation_key": "practice/index.md",
+      "content_type": "practice",
+      "status": "仓库事实",
+      "status_code": "repository-fact",
+      "languages": {
+        "zh-CN": {
+          "title": "实践记录",
+          "description": "WheelOS 实践记录规则、证据升级条件和结果保留要求。",
+          "route": "/practice/",
+          "url": "https://www.wheelos.cn/practice/",
+          "content_type": "practice",
+          "status": "仓库事实",
+          "status_code": "repository-fact",
+          "claim_type": "repository-fact",
+          "scope": "",
+          "keywords": [
+            "实践记录",
+            "证据",
+            "可复现",
+            "验证"
+          ],
+          "evidence_ids": [],
+          "source_path": "practice/index.md"
+        },
+        "en": {
+          "title": "Practice records",
+          "description": "WheelOS rules for recording experiments and promoting guidance to verified evidence.",
+          "route": "/en/practice/",
+          "url": "https://www.wheelos.cn/en/practice/",
+          "content_type": "practice",
+          "status": "Repository fact",
+          "status_code": "repository-fact",
+          "claim_type": "repository-fact",
+          "scope": "",
+          "keywords": [
+            "practice records",
+            "evidence",
+            "reproducibility",
+            "validation"
+          ],
+          "evidence_ids": [],
+          "source_path": "en/practice/index.md"
+        }
+      }
+    },
+    {
+      "logical_id": "PRACTICE-VERIFIED",
+      "translation_key": "practice/verified.md",
+      "content_type": "evidence",
+      "status": "仓库事实",
+      "status_code": "repository-fact",
+      "languages": {
+        "zh-CN": {
+          "title": "已验证方案",
+          "description": "满足完整复现与复核门槛的 WheelOS 实践记录。",
+          "route": "/practice/verified",
+          "url": "https://www.wheelos.cn/practice/verified",
+          "content_type": "evidence",
+          "status": "仓库事实",
+          "status_code": "repository-fact",
+          "claim_type": "repository-fact",
+          "scope": "",
+          "keywords": [
+            "已验证",
+            "证据",
+            "复现"
+          ],
+          "evidence_ids": [],
+          "source_path": "practice/verified.md"
+        },
+        "en": {
+          "title": "Verified solutions",
+          "description": "WheelOS practices that currently meet the complete evidence-review threshold.",
+          "route": "/en/practice/verified",
+          "url": "https://www.wheelos.cn/en/practice/verified",
+          "content_type": "evidence",
+          "status": "Repository fact",
+          "status_code": "repository-fact",
+          "claim_type": "repository-fact",
+          "scope": "",
+          "keywords": [
+            "verified solutions",
+            "evidence",
+            "reproduction"
+          ],
+          "evidence_ids": [],
+          "source_path": "en/practice/verified.md"
+        }
+      }
+    },
+    {
+      "logical_id": "RESOURCES",
+      "translation_key": "resources/index.md",
+      "content_type": "resources",
+      "status": "仓库事实",
+      "status_code": "repository-fact",
+      "languages": {
+        "zh-CN": {
+          "title": "Apollo Lite 资源下载",
+          "description": "Apollo Lite 的模型、感知、规划、控制、标定、工程工具和数据地图服务入口。",
+          "route": "/resources/",
+          "url": "https://www.wheelos.cn/resources/",
+          "content_type": "resources",
+          "status": "仓库事实",
+          "status_code": "repository-fact",
+          "claim_type": "repository-fact",
+          "scope": "",
+          "keywords": [
+            "Apollo Lite",
+            "感知模型",
+            "规划控制",
+            "标定",
+            "工程工具"
+          ],
+          "evidence_ids": [],
+          "source_path": "resources/index.md"
+        },
+        "en": {
+          "title": "Apollo Lite resources",
+          "description": "Apollo Lite models, perception, planning, control, calibration, engineering tools and WheelOS data/map service entry points.",
+          "route": "/en/resources/",
+          "url": "https://www.wheelos.cn/en/resources/",
+          "content_type": "resources",
+          "status": "Repository fact",
+          "status_code": "repository-fact",
+          "claim_type": "repository-fact",
+          "scope": "",
+          "keywords": [
+            "Apollo Lite",
+            "perception models",
+            "planning and control",
+            "calibration",
+            "engineering tools"
+          ],
+          "evidence_ids": [],
+          "source_path": "en/resources/index.md"
+        }
+      }
+    },
+    {
+      "logical_id": "ROADMAP-2025",
+      "translation_key": "roadmap/2025.md",
+      "content_type": "roadmap",
+      "status": "计划能力",
+      "status_code": "planned",
+      "languages": {
+        "zh-CN": {
+          "title": "自动驾驶系统版本发布路线图",
+          "description": "Wheel.OS 和 Wheel.App 的版本功能、工具与运营能力规划。",
+          "route": "/roadmap/2025",
+          "url": "https://www.wheelos.cn/roadmap/2025",
+          "content_type": "roadmap",
+          "status": "计划能力",
+          "status_code": "planned",
+          "claim_type": "planned",
+          "scope": "",
+          "keywords": [
+            "WheelOS",
+            "路线图",
+            "Wheel.OS",
+            "Wheel.App",
+            "计划能力"
+          ],
+          "evidence_ids": [],
+          "source_path": "roadmap/2025.md"
+        },
+        "en": {
+          "title": "Autonomous-driving system release roadmap",
+          "description": "Planned Wheel.OS and Wheel.App features, tools and operational capabilities.",
+          "route": "/en/roadmap/2025",
+          "url": "https://www.wheelos.cn/en/roadmap/2025",
+          "content_type": "roadmap",
+          "status": "Planned",
+          "status_code": "planned",
+          "claim_type": "planned",
+          "scope": "",
+          "keywords": [
+            "WheelOS",
+            "roadmap",
+            "Wheel.OS",
+            "Wheel.App",
+            "planned capability"
+          ],
+          "evidence_ids": [],
+          "source_path": "en/roadmap/2025.md"
+        }
+      }
+    },
+    {
+      "logical_id": "SOLUTIONS-APPLICATIONS",
+      "translation_key": "solutions/applications.md",
+      "content_type": "application",
+      "status": "设计建议",
+      "status_code": "design-guidance",
+      "languages": {
+        "zh-CN": {
+          "title": "自动驾驶短途运输应用场景",
+          "description": "面向工业制造、医疗、零售、物流园区、大型园区和专用作业区域的短途自动驾驶运输场景评估。",
+          "route": "/solutions/applications",
+          "url": "https://www.wheelos.cn/solutions/applications",
+          "content_type": "application",
+          "status": "设计建议",
+          "status_code": "design-guidance",
+          "claim_type": "design-guidance",
+          "scope": "企业、医院、连锁零售、物流园区和大型机构内部的重复性短途运输",
+          "keywords": [
+            "短途运输",
+            "工业制造",
+            "医疗物流",
+            "零售补货",
+            "物流园区",
+            "园区后勤",
+            "港口",
+            "机场"
+          ],
+          "evidence_ids": [],
+          "decision_summary": "优先评估高频、固定路线、标准交接且有明确运营主体的场景；医疗和专用区域必须同时满足合规与安全准入。",
+          "best_for": [
+            "高频重复运输",
+            "固定或半固定路线",
+            "5公里内短途",
+            "标准装卸交接",
+            "明确付费主体"
+          ],
+          "not_for": [
+            "低频偶发运输",
+            "无稳定运营主体",
+            "路线和交接高度不确定",
+            "未解决法规保险",
+            "仅以无人驾驶作为展示"
+          ],
+          "next_action": "提交场景、车辆、路线、班次、交接方式和合规要求，进行场景筛选与现场评估。",
+          "cta_url": "mailto:support@wheelos.cn?subject=WheelOS%20short-distance%20transport%20assessment",
+          "source_path": "solutions/applications.md"
+        },
+        "en": {
+          "title": "Short-Distance Autonomous Transport Applications",
+          "description": "Decision guide for short-distance autonomous transport in manufacturing, healthcare, retail, logistics parks, campuses and specialized sites.",
+          "route": "/en/solutions/applications",
+          "url": "https://www.wheelos.cn/en/solutions/applications",
+          "content_type": "application",
+          "status": "design guidance",
+          "status_code": "design-guidance",
+          "claim_type": "design-guidance",
+          "scope": "Repetitive short-distance transport inside enterprises, hospitals, retail networks, logistics parks and large institutions",
+          "keywords": [
+            "short-distance transport",
+            "manufacturing",
+            "medical logistics",
+            "retail replenishment",
+            "logistics park",
+            "campus logistics",
+            "port",
+            "airport"
+          ],
+          "evidence_ids": [],
+          "decision_summary": "Prioritize frequent, fixed-route transport with standardized handoffs and a clear operating owner. Healthcare and specialized sites also require regulatory and safety approval.",
+          "best_for": [
+            "high-frequency repetitive transport",
+            "fixed or semi-fixed routes",
+            "trips under 5 km",
+            "standardized loading and handoff",
+            "a clear paying customer"
+          ],
+          "not_for": [
+            "infrequent transport",
+            "no stable operating owner",
+            "highly uncertain routes and handoffs",
+            "unresolved regulation or insurance",
+            "autonomous driving as a demonstration only"
+          ],
+          "next_action": "Send the site, vehicle, route, shift, handoff process and compliance requirements for an application-fit assessment.",
+          "cta_url": "mailto:support@wheelos.cn?subject=WheelOS%20short-distance%20transport%20assessment",
+          "source_path": "en/solutions/applications.md"
+        }
+      }
+    },
+    {
+      "logical_id": "SOLUTIONS-DELIVERY-PROCESS",
+      "translation_key": "solutions/delivery-process.md",
+      "content_type": "delivery",
+      "status": "设计建议",
+      "status_code": "design-guidance",
+      "languages": {
+        "zh-CN": {
+          "title": "自动驾驶项目交付与试点流程",
+          "description": "像建房子一样展示自动驾驶短途运输项目的场景调研、方案设计、集成、验证、试点和规模化过程。",
+          "route": "/solutions/delivery-process",
+          "url": "https://www.wheelos.cn/solutions/delivery-process",
+          "content_type": "delivery",
+          "status": "设计建议",
+          "status_code": "design-guidance",
+          "claim_type": "design-guidance",
+          "scope": "WheelOS 短途自动驾驶运输项目的规划与交付方法",
+          "keywords": [
+            "交付流程",
+            "试点",
+            "现场调研",
+            "集成",
+            "标定",
+            "验证",
+            "运营指标",
+            "证据包"
+          ],
+          "evidence_ids": [],
+          "decision_summary": "把项目拆成可检查的阶段，每个阶段都有客户可见交付物、通过条件和未验证边界；未通过前一阶段不进入下一阶段。",
+          "best_for": [
+            "受控场景试点",
+            "固定路线运输",
+            "车辆和底盘集成",
+            "可量化运营指标"
+          ],
+          "not_for": [
+            "跳过现场评估直接部署",
+            "未确认底盘就承诺运行",
+            "无证据即宣称量产"
+          ],
+          "next_action": "从场景调研开始，明确任务、运行边界、车辆条件、验收指标和阶段负责人。",
+          "cta_url": "mailto:support@wheelos.cn?subject=WheelOS%20pilot%20delivery%20plan",
+          "source_path": "solutions/delivery-process.md"
+        },
+        "en": {
+          "title": "Autonomous Project Delivery and Pilot Process",
+          "description": "A transparent, house-building-style process for autonomous short-distance transport projects from discovery through integration, validation, pilot and scale.",
+          "route": "/en/solutions/delivery-process",
+          "url": "https://www.wheelos.cn/en/solutions/delivery-process",
+          "content_type": "delivery",
+          "status": "design guidance",
+          "status_code": "design-guidance",
+          "claim_type": "design-guidance",
+          "scope": "Planning and delivery method for WheelOS short-distance autonomous transport projects",
+          "keywords": [
+            "delivery process",
+            "pilot",
+            "site assessment",
+            "integration",
+            "calibration",
+            "validation",
+            "operations metrics",
+            "evidence pack"
+          ],
+          "evidence_ids": [],
+          "decision_summary": "Break the project into reviewable stages with customer-visible deliverables, exit criteria and unresolved boundaries. Do not advance without passing the previous gate.",
+          "best_for": [
+            "controlled-site pilots",
+            "fixed-route transport",
+            "vehicle and chassis integration",
+            "measurable operating metrics"
+          ],
+          "not_for": [
+            "deployment without site assessment",
+            "operating commitments before chassis confirmation",
+            "production claims without evidence"
+          ],
+          "next_action": "Start with application discovery and define the task, operating boundary, vehicle conditions, acceptance metrics and stage owners.",
+          "cta_url": "mailto:support@wheelos.cn?subject=WheelOS%20pilot%20delivery%20plan",
+          "source_path": "en/solutions/delivery-process.md"
+        }
+      }
+    },
+    {
+      "logical_id": "SOLUTIONS",
+      "translation_key": "solutions/index.md",
+      "content_type": "product",
+      "status": "产品规格",
+      "status_code": "product-specification",
+      "languages": {
+        "zh-CN": {
+          "title": "自动驾驶解决方案",
+          "description": "面向园区、厂区、景区、校园、港口和矿山的自动驾驶软硬件一体化解决方案。",
+          "route": "/solutions/",
+          "url": "https://www.wheelos.cn/solutions/",
+          "content_type": "product",
+          "status": "产品规格",
+          "status_code": "product-specification",
+          "claim_type": "product-specification",
+          "scope": "园区、厂区、景区、校园、港口、矿山等封闭或半封闭低速自动驾驶项目",
+          "keywords": [
+            "自动驾驶解决方案",
+            "园区",
+            "低速自动驾驶",
+            "软硬件一体化"
+          ],
+          "evidence_ids": [],
+          "decision_summary": "面向高频、重复、短距离、固定或半固定路线的企业与园区运输任务，提供一体化开发套件并评估场景适配。",
+          "best_for": [
+            "厂内物料运输",
+            "医疗物资运输",
+            "门店补货",
+            "物流园区短驳",
+            "园区后勤"
+          ],
+          "not_for": [
+            "低频偶发运输",
+            "无明确运营主体的项目",
+            "未解决法规和保险的运输业务"
+          ],
+          "next_action": "先做场景适用性评估，再确认车辆、底盘、路线、服务和报价。",
+          "cta_url": "mailto:support@wheelos.cn?subject=WheelOS%20short-distance%20transport%20assessment",
+          "source_path": "solutions/index.md"
+        },
+        "en": {
+          "title": "Autonomous Driving Solutions",
+          "description": "Pre-integrated autonomous driving solutions for campuses, industrial parks, scenic areas, ports and mines.",
+          "route": "/en/solutions/",
+          "url": "https://www.wheelos.cn/en/solutions/",
+          "content_type": "product",
+          "status": "Product specification",
+          "status_code": "product-specification",
+          "claim_type": "product-specification",
+          "scope": "Low-speed autonomy projects in campuses, industrial parks, scenic areas, ports, mines and similar controlled or semi-controlled sites",
+          "keywords": [
+            "autonomous driving solutions",
+            "campus",
+            "low-speed autonomy",
+            "integrated hardware and software"
+          ],
+          "evidence_ids": [],
+          "decision_summary": "For frequent, repetitive short-distance transport on fixed or semi-fixed routes, starting with the integrated development kit and an application-fit assessment.",
+          "best_for": [
+            "in-plant material transport",
+            "medical logistics",
+            "store replenishment",
+            "logistics-campus transfer",
+            "campus logistics"
+          ],
+          "not_for": [
+            "low-frequency or one-off transport",
+            "projects without an operating owner",
+            "regulated operations with unresolved compliance and insurance"
+          ],
+          "next_action": "Assess application fit first, then confirm the vehicle, chassis, routes, services and quotation.",
+          "cta_url": "mailto:support@wheelos.cn?subject=WheelOS%20short-distance%20transport%20assessment",
+          "source_path": "en/solutions/index.md"
+        }
+      }
+    },
+    {
+      "logical_id": "SOLUTIONS-INTEGRATED-AUTONOMOUS-DRIVING-KIT",
+      "translation_key": "solutions/integrated-autonomous-driving-kit.md",
+      "content_type": "product",
+      "status": "产品规格",
+      "status_code": "product-specification",
+      "languages": {
+        "zh-CN": {
+          "title": "一体化自动驾驶开发套件",
+          "description": "面向园区低速自动驾驶的预集成软硬件开发套件，包含 Jetson AGX Orin 域控制器、16 线激光雷达、4 路相机、组合导航、软件栈与开发工具。",
+          "route": "/solutions/integrated-autonomous-driving-kit",
+          "url": "https://www.wheelos.cn/solutions/integrated-autonomous-driving-kit",
+          "content_type": "product",
+          "status": "产品规格",
+          "status_code": "product-specification",
+          "claim_type": "product-specification",
+          "scope": "封闭或半封闭园区的低速自动驾驶原型开发、测试验证和项目集成",
+          "keywords": [
+            "自动驾驶开发套件",
+            "Jetson AGX Orin",
+            "激光雷达",
+            "线控底盘",
+            "园区自动驾驶"
+          ],
+          "evidence_ids": [],
+          "decision_summary": "适合希望快速建立低速自动驾驶开发与验证平台的团队；应先用正式报价确认配置、底盘和场景边界。",
+          "best_for": [
+            "原型开发",
+            "园区低速运输",
+            "传感器与软件联调",
+            "车辆底盘集成",
+            "算法验证"
+          ],
+          "not_for": [
+            "直接作为功能安全或量产认证",
+            "未确认线控底盘的车辆",
+            "没有场地和验收指标的展示项目"
+          ],
+          "next_action": "提交车辆、场景、CAN 信号和验收目标，获取配置建议与正式报价。",
+          "cta_url": "mailto:support@wheelos.cn?subject=WheelOS%20Integrated%20Autonomous%20Driving%20Kit%20inquiry",
+          "source_path": "solutions/integrated-autonomous-driving-kit.md"
+        },
+        "en": {
+          "title": "Integrated Autonomous Driving Kit",
+          "description": "A pre-integrated hardware and software development kit with an NVIDIA Jetson AGX Orin controller, 16-line LiDAR, four cameras, GNSS/INS, autonomy software and developer tools.",
+          "route": "/en/solutions/integrated-autonomous-driving-kit",
+          "url": "https://www.wheelos.cn/en/solutions/integrated-autonomous-driving-kit",
+          "content_type": "product",
+          "status": "Product specification",
+          "status_code": "product-specification",
+          "claim_type": "product-specification",
+          "scope": "Prototype development, test validation and project integration for low-speed autonomy in controlled or semi-controlled sites",
+          "keywords": [
+            "autonomous driving development kit",
+            "Jetson AGX Orin",
+            "LiDAR",
+            "drive-by-wire chassis",
+            "campus autonomy"
+          ],
+          "evidence_ids": [],
+          "decision_summary": "Appropriate for teams that need a fast starting point for low-speed autonomous-driving development and validation; confirm configuration, chassis and operating boundary through a formal quotation.",
+          "best_for": [
+            "prototype development",
+            "low-speed campus transport",
+            "sensor/software integration",
+            "chassis integration",
+            "algorithm validation"
+          ],
+          "not_for": [
+            "functional-safety or production certification by itself",
+            "vehicles without a confirmed drive-by-wire interface",
+            "demonstrations without a site or acceptance metric"
+          ],
+          "next_action": "Send the vehicle, application, CAN signals and acceptance target to receive a configuration recommendation and formal quotation.",
+          "cta_url": "mailto:support@wheelos.cn?subject=WheelOS%20Integrated%20Autonomous%20Driving%20Kit%20inquiry",
+          "source_path": "en/solutions/integrated-autonomous-driving-kit.md"
+        }
+      }
+    }
+  ]
+}

@@ -1,3 +1,11 @@
+---
+title: 已验证方案
+description: 满足完整复现与复核门槛的 WheelOS 实践记录。
+content_type: evidence
+status: 仓库事实
+keywords: [已验证, 证据, 复现]
+---
+
 # 已验证方案
 
 当前暂无具备完整复现信息并登记在证据索引中的 WheelOS 实践记录。

@@ -1,3 +1,11 @@
+---
+title: 待验证假设
+description: 可用于设计实验、但不能作为 WheelOS 已验证能力推荐的工程假设。
+content_type: evidence
+status: 待验证
+keywords: [假设, 时间戳, 标定, 控制延迟]
+---
+
 # 待验证假设
 
 这里收集合理但尚未由 WheelOS 实验确认的判断。它们可以帮助 AI 设计实验，但不能作为已支持能力推荐给用户。

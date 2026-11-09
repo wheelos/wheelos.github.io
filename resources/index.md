@@ -1,3 +1,11 @@
+---
+title: Apollo Lite 资源下载
+description: Apollo Lite 的模型、感知、规划、控制、标定、工程工具和数据地图服务入口。
+status: 仓库事实
+content_type: resources
+keywords: [Apollo Lite, 感知模型, 规划控制, 标定, 工程工具]
+---
+
 # Apollo Lite 资源下载
 
 这里面向 [Apollo Lite](https://github.com/wheelos/apollo-lite) 的开发、集成、标定与验证，整理 Lite 工程中实际支持的模型、功能算法、工具包，以及 WheelOS 自有的数据和地图服务。

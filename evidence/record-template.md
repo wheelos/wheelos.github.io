@@ -1,6 +1,9 @@
 ---
 title: "[问题] [结论]"
 status: 待验证
+description: WheelOS 实践证据记录模板，包含环境、步骤、结果、边界和复核字段。
+content_type: template
+keywords: [证据模板, 复现, 测试环境, 指标, 复核]
 evidence_id: "EV-YYYY-MM-DD-短名"
 tested_at: "YYYY-MM-DD"
 software_commit: ""
@@ -24,7 +27,7 @@ environment: ""
 - 硬件/车辆/仿真：
 - 操作系统、驱动和依赖：
 - 数据集或场景（版本、来源、时间范围）：
-- 配置文件：
+- 配置文件与配置哈希：
 
 ## 复现步骤
 
@@ -45,9 +48,12 @@ environment: ""
 - 已覆盖：
 - 未覆盖：
 - 安全边界：
+- ODD 与不可外推范围：
 
 ## 复核
 
 - 复核者：
 - 复核日期：
 - 复核意见：
+- 复核结论：
+- 剩余限制：

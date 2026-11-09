@@ -7,7 +7,8 @@
     "docs:i18n": "node scripts/translate-docs.mjs",
     "docs:generate-ai": "node scripts/generate-ai-index.mjs",
     "docs:check": "node scripts/check-evidence.mjs",
-    "docs:build": "npm run docs:check && npm run docs:generate-ai && vitepress build .",
+    "docs:check-content": "node scripts/check-content.mjs",
+    "docs:build": "npm run docs:check-content && npm run docs:check && npm run docs:generate-ai && vitepress build . && node scripts/check-links.mjs",
     "docs:preview": "vitepress preview ."
   },
   "devDependencies": {

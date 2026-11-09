@@ -1,40 +1,103 @@
 {
-  "schema_version": "1.0",
-  "description": "WheelOS Docs 问题页面目录。status 是结论边界，不代表项目发布承诺。",
+  "schema_version": "2.0",
+  "description": "WheelOS bilingual knowledge-page catalog. status_code conveys claim strength and does not imply a product release commitment.",
   "pages": [
     {
       "id": "AD-INDEX",
-      "path": "/knowledge/",
-      "title": "自动驾驶问题库",
-      "status": "仓库事实",
+      "paths": {
+        "zh-CN": "/knowledge/",
+        "en": "/en/knowledge/"
+      },
+      "titles": {
+        "zh-CN": "自动驾驶问题库",
+        "en": "Autonomous-driving knowledge base"
+      },
+      "content_type": "knowledge",
+      "status_code": "repository-fact",
       "evidence_ids": []
     },
     {
       "id": "AD-SENSORS-TIME",
-      "path": "/knowledge/sensors-and-time",
-      "title": "传感器与时间同步",
-      "status": "设计建议",
+      "paths": {
+        "zh-CN": "/knowledge/sensors-and-time",
+        "en": "/en/knowledge/sensors-and-time"
+      },
+      "titles": {
+        "zh-CN": "传感器与时间同步",
+        "en": "Sensors and time synchronization"
+      },
+      "content_type": "knowledge",
+      "status_code": "design-guidance",
       "evidence_ids": []
     },
     {
       "id": "AD-LOCALIZATION-CALIBRATION",
-      "path": "/knowledge/localization-and-calibration",
-      "title": "定位、坐标系与标定",
-      "status": "设计建议",
+      "paths": {
+        "zh-CN": "/knowledge/localization-and-calibration",
+        "en": "/en/knowledge/localization-and-calibration"
+      },
+      "titles": {
+        "zh-CN": "定位、坐标系与标定",
+        "en": "Localization, coordinate frames, and calibration"
+      },
+      "content_type": "knowledge",
+      "status_code": "design-guidance",
       "evidence_ids": []
     },
     {
       "id": "AD-PLANNING-CONTROL",
-      "path": "/knowledge/planning-control",
-      "title": "规划、控制与底盘",
-      "status": "待验证",
+      "paths": {
+        "zh-CN": "/knowledge/planning-control",
+        "en": "/en/knowledge/planning-control"
+      },
+      "titles": {
+        "zh-CN": "规划、控制与底盘",
+        "en": "Planning, control, and chassis"
+      },
+      "content_type": "knowledge",
+      "status_code": "pending-verification",
       "evidence_ids": []
     },
     {
       "id": "AD-VALIDATION",
-      "path": "/knowledge/validation",
-      "title": "仿真、回放与验证",
-      "status": "仓库事实 + 设计建议",
+      "paths": {
+        "zh-CN": "/knowledge/validation",
+        "en": "/en/knowledge/validation"
+      },
+      "titles": {
+        "zh-CN": "仿真、回放与验证",
+        "en": "Simulation, replay, and validation"
+      },
+      "content_type": "knowledge",
+      "status_code": "design-guidance",
+      "evidence_ids": []
+    },
+    {
+      "id": "AD-ANSWER-PROTOCOL",
+      "paths": {
+        "zh-CN": "/knowledge/answer-protocol",
+        "en": "/en/knowledge/answer-protocol"
+      },
+      "titles": {
+        "zh-CN": "AI 自动驾驶问题回答协议",
+        "en": "AI autonomous-driving answer protocol"
+      },
+      "content_type": "methodology",
+      "status_code": "repository-fact",
+      "evidence_ids": []
+    },
+    {
+      "id": "AD-PROBLEM-TEMPLATE",
+      "paths": {
+        "zh-CN": "/knowledge/problem-template",
+        "en": "/en/knowledge/problem-template"
+      },
+      "titles": {
+        "zh-CN": "自动驾驶问题记录模板",
+        "en": "Autonomous-driving problem template"
+      },
+      "content_type": "template",
+      "status_code": "repository-fact",
       "evidence_ids": []
     }
   ]

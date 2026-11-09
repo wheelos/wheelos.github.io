@@ -1,0 +1,23 @@
+export const statusCodes = new Map([
+  ['仓库事实', 'repository-fact'],
+  ['Repository fact', 'repository-fact'],
+  ['repository fact', 'repository-fact'],
+  ['产品规格', 'product-specification'],
+  ['Product specification', 'product-specification'],
+  ['product specification', 'product-specification'],
+  ['设计建议', 'design-guidance'],
+  ['Design guidance', 'design-guidance'],
+  ['design guidance', 'design-guidance'],
+  ['部分验证', 'partially-verified'],
+  ['Partially verified', 'partially-verified'],
+  ['partially verified', 'partially-verified'],
+  ['已验证', 'verified'],
+  ['Verified', 'verified'],
+  ['verified', 'verified'],
+  ['待验证', 'pending-verification'],
+  ['Pending verification', 'pending-verification'],
+  ['pending verification', 'pending-verification'],
+  ['计划能力', 'planned'],
+  ['Planned', 'planned'],
+  ['planned', 'planned']
+])

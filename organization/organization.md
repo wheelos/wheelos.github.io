@@ -1,62 +1,75 @@
-# WheelOS Open Source Community Structure
+---
+title: 社区组织结构
+description: WheelOS 开源社区的技术委员会、运营委员会、贡献者和协作方式。
+status: 仓库事实
+content_type: organization
+keywords: [WheelOS, 开源社区, 治理, 协作方式]
+---
 
-## Technical Steering Committee (TSC)
-- **Responsibilities**: Oversee the project's technical direction, code quality, release planning, and technical decisions.
-- **Members**: Core contributors, module maintainers, and senior technical experts.
-- **Working Methods**:
-  - Regular technical meetings (e.g., weekly or monthly).
-  - Review Pull Requests and Issues.
-  - Host technical sharing sessions to engage with the community.
+# WheelOS 开源社区结构
 
-## Operations Committee
-- **Responsibilities**: Manage non-technical affairs of the community, including promotion, resource management, and event organization.
-- **Members**: Community managers, designers, marketing experts, and active user representatives.
-- **Working Methods**:
-  - Plan community events (e.g., Hackathons and annual summits).
-  - Promote community projects to attract new users and contributors.
-  - Manage financial resources and liaise with sponsors.
-  - Support the daily operation of collaboration tools (e.g., Slack, forums).
+## 技术指导委员会（TSC）
 
-## Contributors
-- **Responsibilities**:
-  - Submit code, documentation, bug reports, or optimization suggestions.
-  - Participate in community technical decisions through proposals.
-  - Share experiences in technical sharing sessions and community forums.
-- **Communication Methods**: Collaborate via GitHub, Slack, and mailing lists with module maintainers or the Technical Committee.
+- **职责：** 负责项目技术方向、代码质量、发布规划和技术决策。
+- **成员：** 核心贡献者、模块维护者和资深技术专家。
+- **工作方式：**
+  - 定期召开技术会议，例如每周或每月一次。
+  - 审查 Pull Request 和 Issue。
+  - 组织技术分享并与社区保持互动。
 
-## Working Modes and Processes
+## 运营委员会
 
-### Long-term Routine Work
-- **Technical Committee**:
-  - Regularly update the technical roadmap.
-  - Maintain the core codebase.
-  - Conduct regular technical review meetings.
-- **Operations Committee**:
-  - Regularly plan events, such as technical sharing sessions or community summits.
-  - Update content on promotional channels regularly.
-  - Track community growth metrics (e.g., new user numbers, new contributors).
+- **职责：** 管理社区非技术事务，包括推广、资源管理和活动组织。
+- **成员：** 社区经理、设计师、市场专家和活跃用户代表。
+- **工作方式：**
+  - 规划 Hackathon、年度峰会等社区活动。
+  - 推广社区项目，吸引新用户和贡献者。
+  - 管理资金资源并协调赞助方。
+  - 支持 Slack、论坛等协作工具的日常运行。
 
-### Short-term Work (Project-based Workflow)
-- **Technical Committee**:
-  - Prepare for specific version releases (e.g., Alpha/Beta/Final).
-  - Design and implement new functional modules or major technical improvements.
-- **Operations Committee**:
-  - Organize major promotional activities (e.g., annual developer conferences).
-  - Conduct feedback surveys and strategy adjustments for specific user groups.
+## 贡献者
 
-## Strategies for Maintaining a Technical Atmosphere
-- **Clear Technical Specifications and Contribution Guidelines**: Provide clear documentation on code style, contribution processes, and technical decision-making processes.
-- **Open and Transparent Decision-making Mechanism**: Ensure everyone can understand and participate in the community's technical decisions through public meeting minutes and real-time discussion platforms.
-- **Recognition Mechanisms**: Award titles like "Core Contributor" to outstanding contributors to enhance technical participation enthusiasm.
-- **Education and Training**: Lower barriers for new contributors through technical sharing sessions, online courses, or development documentation.
+- **职责：**
+  - 提交代码、文档、缺陷报告或优化建议。
+  - 通过提案参与社区技术决策。
+  - 在技术分享和社区论坛中交流经验。
+- **沟通方式：** 通过 GitHub、Slack 和邮件列表与模块维护者或技术委员会协作。
 
-## Methods of Promoting the Open Source Community
-- **Social Media Dissemination**: Post updates and tutorials on Twitter, LinkedIn, YouTube, and other platforms.
-- **Content Marketing**: Showcase the community's achievements through blogs, case studies, and industry articles.
-- **Developer Activities**:
-  - Host regular Hackathons, Meetups, or online technical sharing sessions.
-  - Participate in trade shows or collaborate with other communities in hosting events.
-- **Showcasing Success Stories**: Collect cases of successful companies or individuals using open source projects and use them as promotional material.
-- **Collaboration and Support**: Engage with universities, companies, or developer organizations to jointly promote projects.
+## 协作模式与流程
 
-By establishing clear division of labor, transparent decision-making, and active promotional strategies, an open source community can maintain technical vitality while attracting more contributors and users.
+### 长期例行工作
+
+- **技术委员会：**
+  - 定期更新技术路线图。
+  - 维护核心代码库。
+  - 定期开展技术评审会议。
+- **运营委员会：**
+  - 定期规划技术分享、社区峰会等活动。
+  - 持续更新推广渠道内容。
+  - 跟踪社区增长指标，例如新用户和新贡献者数量。
+
+### 短期项目制工作
+
+- **技术委员会：**
+  - 准备版本发布，例如 Alpha、Beta 和 Final。
+  - 设计并实现新功能模块或重大技术改进。
+- **运营委员会：**
+  - 组织大型推广活动，例如年度开发者大会。
+  - 针对特定用户群体开展反馈调查和策略调整。
+
+## 维护技术氛围
+
+- **清晰的技术规范：** 公开代码风格、贡献流程和技术决策机制。
+- **开放透明的决策：** 通过会议纪要、公开讨论和 Issue 让社区理解决策依据。
+- **贡献认可：** 为核心贡献者等角色建立公开认可机制。
+- **教育与培训：** 通过技术分享、在线课程和开发文档降低新贡献者的参与门槛。
+
+## 社区推广方式
+
+- 在 LinkedIn、YouTube、微信公众号等渠道发布更新和教程。
+- 通过博客、案例研究和行业文章展示工程进展。
+- 组织 Hackathon、Meetup 和线上技术分享。
+- 参与行业展会并与其他社区联合举办活动。
+- 与高校、企业和开发者组织合作推广项目。
+
+清晰的职责分工、透明的决策机制和持续的工程交流，是社区保持技术活力并吸引贡献者的基础。

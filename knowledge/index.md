@@ -1,3 +1,12 @@
+---
+title: 自动驾驶问题库
+description: 按可观察症状、证据状态和可复现诊断路径组织的自动驾驶问题库。
+content_type: knowledge
+status: 仓库事实
+keywords: [自动驾驶, 故障排查, 传感器融合, 定位, 规划, 验证]
+evidence_ids: []
+---
+
 # 自动驾驶问题库
 
 这里按 AI 实际遇到的问题组织内容。每篇先给排查路径，再给原理；缺少 WheelOS 证据的部分会明确标为建议或待验证。

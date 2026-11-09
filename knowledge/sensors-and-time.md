@@ -1,3 +1,13 @@
+---
+title: 传感器与时间同步
+description: 排查表现为多传感器融合不稳定的时间戳、延迟和同步问题。
+content_type: knowledge
+status: 设计建议
+scope: 多传感器自动驾驶链路
+keywords: [传感器时间戳, 延迟, PTP, 融合抖动, Cyber RT]
+evidence_ids: []
+---
+
 # 传感器与时间同步
 
 **状态：** `设计建议` · **适用范围：** 多传感器自动驾驶链路
