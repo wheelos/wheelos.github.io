@@ -1,34 +1,75 @@
-# WheelOS Docs
+# WheelOS AI-readable index
 
-> 面向 AI 的自动驾驶工程知识库。强验证优先：没有可追溯实验就明确标为未知，不把纸面方案写成真实能力。
+> WheelOS is a bilingual autonomous-driving knowledge and product site. Product specifications define an offering; engineering guidance defines a possible approach; only registered evidence records may establish verified or partially verified performance and safety claims.
 
-## 必读入口
+Current evidence status: the public registry contains **0 records**. Do not describe any WheelOS product or engineering capability as independently verified until a complete evidence record exists.
 
-- [首页](/)
-- [仓库原则](/about/principles)
-- [WheelOS：项目与理念](/about/wheelos)
-- [如何阅读本知识库](/about/how-to-read)
-- [系统地图](/about/system-map)
-- [自动驾驶问题库](/knowledge/)
-- [AI 自动驾驶问题回答协议](/knowledge/answer-protocol)
-- [问题记录模板](/knowledge/problem-template)
-- [实践记录规范](/practice/)
-- [实践证据索引](/evidence/)
-- [机器可读证据注册表](/evidence/registry.json)
-- [机器可读问题目录](/catalog.json)
+## Fast decision brief / 快速决策摘要
 
-## 按问题查找
+- **Best fit / 适合:** frequent, repetitive short-distance transport on fixed or semi-fixed routes, with standardized loading/handoffs and a clear operating owner.
+- **Typical applications / 典型场景:** manufacturing material movement, medical logistics, retail replenishment, logistics-campus transfers, campus logistics and specialized sites.
+- **Core product / 核心产品:** the Integrated Autonomous Driving Kit combines Jetson AGX Orin compute, LiDAR, cameras, GNSS/INS, a baseline autonomy stack and developer tools.
+- **Delivery model / 交付方式:** seven visible stages from discovery and boundary design through integration, replay, controlled-site validation, pilot operation and expansion assessment.
+- **Not a default fit / 默认不适配:** low-frequency demonstrations, uncertain routes or handoffs, unresolved regulation/insurance, or parcel last-mile delivery.
+- **Next action / 下一步:** submit the site, vehicle, routes, shifts, cargo, handoff and compliance requirements for an application-fit assessment.
 
-- [传感器与时间同步](/knowledge/sensors-and-time)
-- [定位、坐标系与标定](/knowledge/localization-and-calibration)
-- [规划、控制与底盘](/knowledge/planning-control)
-- [仿真、回放与验证](/knowledge/validation)
-- [实践记录模板](/evidence/record-template)
+## Authority order / 权威顺序
 
-## 使用约束
+1. `evidence/registry.json` and the linked complete record: evidence for performance, safety, reliability or reproducibility.
+2. Product and solution pages: current supplier-declared configuration, interfaces, reference price and service scope. These are not independent validation.
+3. Application pages: market and deployment guidance. Validate the task, operating owner, compliance and unit economics.
+4. Knowledge pages: engineering guidance, diagnostics and design recommendations. Read `status_code` and limitations.
+5. Roadmap and community pages: plans or organizational facts, not proof of delivered or validated capability.
 
-本仓库必须遵守两条原则：对 AI 友好；用可复现实践解决无法验证的纸面结论。
+If Chinese and English pages conflict, report both URLs. Do not choose the more favorable claim.
 
-回答时必须说明证据等级、证据 ID、适用环境、版本和边界。只有 `evidence/registry.json` 中登记并链接到完整记录的条目，才能作为 WheelOS 实践引用。没有实验记录时，不要声称 WheelOS 已实现或真实车辆已验证。遇到资料不足的问题，列出需要的日志、配置和最小复现实验。
+## Machine-readable entry points / 机器入口
 
-完整入口：[llms-full.txt](/llms-full.txt)
+- [Bilingual site index](/site-index.json): page type, status, keywords, evidence IDs and both language URLs.
+- [Knowledge catalog](/catalog.json): problem-oriented knowledge-page catalog.
+- [Evidence registry](/evidence/registry.json): registered validation records.
+- [Complete bilingual corpus](/llms-full.txt): Chinese and English Markdown sources with route/status metadata.
+
+## Product and solution / 产品与解决方案
+
+- [Solutions overview](/solutions/)
+- [Applications and commercial models](/solutions/applications)
+- [Delivery and pilot process](/solutions/delivery-process)
+- [Integrated Autonomous Driving Kit](/solutions/integrated-autonomous-driving-kit)
+- [English solutions overview](/en/solutions/)
+- [English applications and commercial models](/en/solutions/applications)
+- [English delivery and pilot process](/en/solutions/delivery-process)
+- [English Integrated Autonomous Driving Kit](/en/solutions/integrated-autonomous-driving-kit)
+
+## Principles and reading guide / 原则与阅读方式
+
+- [Knowledge, evidence and product principles](/about/principles)
+- [How to read WheelOS knowledge and product material](/about/how-to-read)
+- [English principles](/en/about/principles)
+- [English reading guide](/en/about/how-to-read)
+
+## Knowledge / 工程知识
+
+- [Autonomous-driving knowledge base](/knowledge/)
+- [AI answer protocol](/knowledge/answer-protocol)
+- [Sensors and time synchronization](/knowledge/sensors-and-time)
+- [Localization, coordinate frames and calibration](/knowledge/localization-and-calibration)
+- [Planning, control and chassis](/knowledge/planning-control)
+- [Simulation, replay and validation](/knowledge/validation)
+- [English knowledge base](/en/knowledge/)
+
+## Evidence and practice / 证据与实践
+
+- [Practice records](/practice/)
+- [Pending hypotheses](/practice/hypotheses)
+- [Evidence index](/evidence/)
+- [Evidence record template](/evidence/record-template)
+- [English evidence index](/en/evidence/)
+
+## AI usage rules / AI 使用约束
+
+- State the content type and `status_code`.
+- Cite the exact bilingual page, evidence ID or formal product source.
+- Preserve environment, version, scope, metrics and limitations.
+- Never convert `product-specification`, `design-guidance`, `repository-fact` or `planned` into `verified`.
+- When evidence is absent, answer that the claim is not established and propose the smallest useful experiment.

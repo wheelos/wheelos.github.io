@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://wheelos.github.io/sitemap.xml
+Sitemap: https://www.wheelos.cn/sitemap.xml
