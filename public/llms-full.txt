@@ -36,8 +36,8 @@ hero:
   tagline: 面向工厂、医院、零售、物流园区和大型机构，先评估场景，再用一体化套件完成车辆集成、验证和项目交付。
   actions:
     - theme: brand
-      text: 评估运输场景
-      link: /solutions/applications
+      text: 开始场景适配判断
+      link: /solutions/fit-assessment
     - theme: alt
       text: 查看一体化套件
       link: /solutions/integrated-autonomous-driving-kit
@@ -45,7 +45,7 @@ hero:
 features:
   - title: 先筛选场景
     details: 用运输频率、路线、交接、运营主体和合规条件判断是否适合自动驾驶。
-    link: /solutions/applications#decision-summary
+    link: /solutions/fit-assessment
   - title: 公开搭建过程
     details: 从现场调研、车辆集成、回放验证到试点运营，每个阶段都有交付物和通过条件。
     link: /solutions/delivery-process
@@ -72,15 +72,15 @@ features:
 
 ## 像建房子一样推进项目
 
-自动驾驶不是一次性交付的“黑盒”。我们建议把项目拆成场景调研、边界设计、车辆与传感器、软件与数据、回放验证、试点运行和扩展评估七个阶段。每个阶段都让客户看到输入、输出、指标、风险和未解决问题。
+自动驾驶不是一次性交付的“黑盒”。客户侧分为需求沟通、初步评估、现场方案设计、单线路试点和扩展决策五个里程碑；内部再拆成七个工程子步骤。每个阶段都让客户看到输入、输出、指标、风险和未解决问题。
 
-[查看七阶段交付流程、通过条件和试点指标 →](/solutions/delivery-process)
+[查看五阶段客户流程、七个工程子步骤和试点指标 →](/solutions/delivery-process)
 
 ## 产品组合
 
 WheelOS 当前的核心产品是[一体化自动驾驶开发套件](/solutions/integrated-autonomous-driving-kit)：它把计算、传感器、时间同步、基础软件栈和开发工具组合成可集成的低速自动驾驶平台。场景适配、现场标定、地图、培训和仿真测试属于项目服务，具体范围需要确认。
 
-面向厂内物流、医疗物资、门店补货、仓储短驳和园区后勤等低速运输任务，提供经过预集成与测试的软硬件基础平台。标准套件参考价格为人民币 39,900 元起，并可根据项目增加现场标定、功能定制、高精度地图和仿真测试服务。
+面向厂内物流、医疗物资、门店补货、仓储短驳和园区后勤等低速运输任务，提供预集成的软硬件基础平台。标准套件参考价格为人民币 39,900 元起，并可根据项目增加现场标定、功能定制、高精度地图和仿真测试服务。该套件不是已认证的量产自动驾驶系统，场地安全、法规准入和车辆级验证仍属于项目工作。
 
 [查看解决方案与完整规格 →](/solutions/integrated-autonomous-driving-kit)
 
@@ -112,7 +112,7 @@ WheelOS 当前的核心产品是[一体化自动驾驶开发套件](/solutions/i
 
 <div class="solution-cta">
   <div>
-    <h2>从可验证的开发平台开始</h2>
+    <h2>从可逐步验证的开发平台开始</h2>
     <p>无需从零组合传感器、计算平台、软件栈和车辆接口。</p>
   </div>
   <div class="solution-actions">
@@ -146,8 +146,8 @@ hero:
   tagline: For factories, hospitals, retailers, logistics parks and large institutions, assess the application first, then integrate and validate it with a pre-integrated WheelOS platform.
   actions:
     - theme: brand
-      text: Assess your transport task
-      link: /en/solutions/applications
+      text: Start the fit assessment
+      link: /en/solutions/fit-assessment
     - theme: alt
       text: Explore the integrated kit
       link: /en/solutions/integrated-autonomous-driving-kit
@@ -155,7 +155,7 @@ hero:
 features:
   - title: Screen the application first
     details: Use frequency, routes, handoffs, operating ownership and compliance to decide whether autonomous transport fits.
-    link: /en/solutions/applications#decision-summary
+    link: /en/solutions/fit-assessment
   - title: See how the solution is built
     details: From site discovery and vehicle integration through replay validation and pilot operation, each stage has deliverables and exit criteria.
     link: /en/solutions/delivery-process
@@ -182,13 +182,15 @@ features:
 
 ## Build the project like a house
 
-Autonomous driving is not a one-step black box. We recommend seven visible stages: application discovery, boundary design, vehicle and sensors, software and data, replay validation, pilot operation and expansion assessment. Each stage exposes inputs, outputs, metrics, risks and unresolved issues.
+Autonomous driving is not a one-step black box. Customers see five milestones: requirements, initial assessment, site-specific solution design, a single-route pilot and the expansion decision. Internally these map to seven engineering substeps. Every stage exposes inputs, outputs, metrics, risks and unresolved issues.
 
-[View the seven-stage delivery process, exit criteria and pilot metrics →](/en/solutions/delivery-process)
+[View the five customer milestones, seven engineering substeps and pilot metrics →](/en/solutions/delivery-process)
 
 ## Product portfolio
 
 The core product is the [Integrated Autonomous Driving Kit](/en/solutions/integrated-autonomous-driving-kit), which combines compute, sensors, time synchronization, a baseline autonomy stack and developer tools. Site adaptation, calibration, maps, training and simulation are project services whose scope requires confirmation.
+
+The standard-kit reference price is from RMB 39,900. Final configuration, delivery, taxes and optional services require a formal quotation.
 
 ## A faster route from prototype to real-world testing
 
@@ -222,7 +224,7 @@ The kit is intended for engineering evaluation and deployment in manufacturing, 
 
 ## Verified knowledge and product scope stay separate
 
-WheelOS uses three principles: AI-native retrieval, evidence-gated knowledge and explicit product boundaries. A `Product specification` describes configuration and delivery scope. `Verified` requires a reproducible evidence record with environment, metrics, raw results and review.
+WheelOS uses four principles: AI-native retrieval, evidence-gated knowledge, explicit product boundaries and bilingual parity. A `Product specification` describes configuration and delivery scope. `Verified` requires a reproducible evidence record with environment, metrics, raw results and review.
 
 Start with [how to use this knowledge base](/en/about/how-to-read), or read the [repository principles](/en/about/principles).
 
@@ -2342,6 +2344,11 @@ cta_url: mailto:support@wheelos.cn?subject=WheelOS%20short-distance%20transport%
 
 > 本页是场景筛选与商业决策指南，不是性能、合规或安全认证承诺。每个项目都需要验证场地、车辆、任务、法规和单位经济性。
 
+<figure class="application-visual application-visual--lead">
+  <img src="/images/solutions/applications-overview.jpg" alt="WheelOS 面向工业制造、医疗、零售和大型园区的短途自动驾驶运输场景" width="1600" height="1066" loading="eager">
+  <figcaption>WheelOS 重点探索工业、医疗、零售、仓储与大型园区之间的固定短途运输。</figcaption>
+</figure>
+
 <div id="decision-summary"></div>
 
 ## 先看结论
@@ -2352,6 +2359,10 @@ WheelOS 聚焦企业内部的**高频、重复、短距离物资运输**。最�
 - 每天重复发生，有稳定班次和明确运营主体。
 - 起终点、装卸区和交接流程相对固定。
 - 路线、车辆、货物、法规和保险边界可以被明确评估。
+
+**5 公里是当前重点探索范围，不是技术应用的绝对距离限制。**
+
+[用五步判断工具检查你的运输任务 →](/solutions/fit-assessment)
 
 <div id="scenario-priority"></div>
 
@@ -2370,6 +2381,11 @@ WheelOS 聚焦企业内部的**高频、重复、短距离物资运输**。最�
 
 ## 场景一：工业制造物料运输
 
+<figure class="application-visual">
+  <img src="/images/solutions/manufacturing.jpg" alt="工厂仓库、生产车间和物料运输车辆" width="1280" height="800" loading="lazy">
+  <figcaption>工厂仓库、车间、产线和成品库之间的物料运输。</figcaption>
+</figure>
+
 **问题：** 原材料、零部件和半成品在仓库、车间和产线之间持续流动，部分路线很短但班次频繁。
 
 **典型客户：** 汽车零部件、电子制造、家电、机械加工、食品加工企业和工业产业园。
@@ -2383,6 +2399,11 @@ WheelOS 聚焦企业内部的**高频、重复、短距离物资运输**。最�
 <div id="medical-logistics"></div>
 
 ## 场景二：医疗与医药物资运输
+
+<figure class="application-visual">
+  <img src="/images/solutions/medical-logistics.jpg" alt="医院院区和检验中心之间的医疗物资运输" width="1280" height="720" loading="lazy">
+  <figcaption>院区与检验中心之间的样本和医疗物资运输；实际业务须满足专业合规要求。</figcaption>
+</figure>
 
 **问题：** 医院、检验中心和医联体之间需要高频、小批量、定时运输样本和物资。
 
@@ -2398,6 +2419,11 @@ WheelOS 聚焦企业内部的**高频、重复、短距离物资运输**。最�
 
 ## 场景三：商业零售与连锁门店补货
 
+<figure class="application-visual">
+  <img src="/images/solutions/retail-replenishment.jpg" alt="区域仓库向周边连锁门店进行商品补货" width="1280" height="720" loading="lazy">
+  <figcaption>区域仓、配送中心和周边门店之间的小批量补货。</figcaption>
+</figure>
+
 **问题：** 区域仓或配送中心需要向周边门店持续补货，小批量、多频次配送增加组织成本。
 
 **典型客户：** 连锁便利店、生鲜连锁、商超集团、餐饮连锁、中央厨房和供应链企业。
@@ -2411,6 +2437,11 @@ WheelOS 聚焦企业内部的**高频、重复、短距离物资运输**。最�
 <div id="logistics-campus"></div>
 
 ## 场景四：仓储与物流园区内部运输
+
+<figure class="application-visual">
+  <img src="/images/solutions/logistics-campus.jpg" alt="仓储物流园区内仓库、月台和暂存区之间的短途运输" width="1280" height="853" loading="lazy">
+  <figcaption>仓库、装卸月台和暂存区之间的园区短驳。</figcaption>
+</figure>
 
 **问题：** 多个仓库、装卸月台、暂存区和入驻企业之间存在持续短驳需求。
 
@@ -2426,6 +2457,11 @@ WheelOS 聚焦企业内部的**高频、重复、短距离物资运输**。最�
 
 ## 场景五：校园、酒店与大型园区后勤
 
+<figure class="application-visual">
+  <img src="/images/solutions/campus-logistics.jpg" alt="校园、酒店和大型园区内不同楼宇之间的后勤物资运输" width="1280" height="720" loading="lazy">
+  <figcaption>食堂、洗涤中心、仓库和不同楼宇之间的后勤运输。</figcaption>
+</figure>
+
 **问题：** 餐食、布草、耗材和设备在楼宇、食堂、仓库和服务区之间持续运输，但单项任务频率可能不高。
 
 **典型客户：** 高校、医院园区、酒店集团、度假区、景区、物业公司和产业园运营方。
@@ -2439,6 +2475,11 @@ WheelOS 聚焦企业内部的**高频、重复、短距离物资运输**。最�
 <div id="specialized-sites"></div>
 
 ## 场景六：港口、机场与专用作业区域
+
+<figure class="application-visual">
+  <img src="/images/solutions/specialized-sites.jpg" alt="港口、机场和专用作业区域内固定线路货物运输" width="1280" height="720" loading="lazy">
+  <figcaption>港口、机场和专用作业区域内的固定线路运输。</figcaption>
+</figure>
 
 **问题：** 港口、机场、铁路货场和能源基地内部存在固定货物摆渡和水平运输。
 
@@ -2528,7 +2569,7 @@ WheelOS 不经营快递揽收、分拣、派件或快递驿站，也不替代医
 3. 核对底盘、传感器布置、场地地图、安全和验收指标。
 4. 在受控环境中开展最小集成与验证项目。
 
-[查看从现场调研到试点验收的七阶段交付流程 →](/solutions/delivery-process)
+[查看从需求沟通到试点部署的五阶段客户流程 →](/solutions/delivery-process)
 
 <div class="solution-cta">
   <div>
@@ -2537,6 +2578,7 @@ WheelOS 不经营快递揽收、分拣、派件或快递驿站，也不替代医
   </div>
   <div class="solution-actions">
     <a class="primary" href="mailto:support@wheelos.cn?subject=WheelOS%20short-distance%20transport%20assessment">提交场景评估</a>
+    <a href="/solutions/fit-assessment">先做五步判断</a>
     <a href="/solutions/delivery-process">查看交付流程</a>
     <a href="/solutions/integrated-autonomous-driving-kit">查看一体化套件</a>
   </div>
@@ -2566,6 +2608,11 @@ cta_url: mailto:support@wheelos.cn?subject=WheelOS%20short-distance%20transport%
 
 > This page is an application-selection and business-decision guide, not a performance, regulatory or safety certification. Every project must validate the site, vehicle, tasks, regulations and unit economics.
 
+<figure class="application-visual application-visual--lead">
+  <img src="/images/solutions/applications-overview.jpg" alt="WheelOS short-distance autonomous transport applications in manufacturing, healthcare, retail and large campuses" width="1600" height="1066" loading="eager">
+  <figcaption>WheelOS focuses on fixed short-distance transport across manufacturing, healthcare, retail, logistics and large campuses.</figcaption>
+</figure>
+
 <div id="decision-summary"></div>
 
 ## Decision summary
@@ -2576,6 +2623,10 @@ WheelOS focuses on **frequent, repetitive, short-distance material transport** i
 - The task repeats every day with stable shifts and a clear operating owner.
 - Origins, destinations, loading areas and handoffs are relatively fixed.
 - Route, vehicle, cargo, regulatory and insurance boundaries can be assessed.
+
+**5 km is the current focus for exploration, not an absolute technical limit.**
+
+[Check your transport task with the five-gate assessment →](/en/solutions/fit-assessment)
 
 <div id="scenario-priority"></div>
 
@@ -2594,6 +2645,11 @@ WheelOS focuses on **frequent, repetitive, short-distance material transport** i
 
 ## 1. Manufacturing material transport
 
+<figure class="application-visual">
+  <img src="/images/solutions/manufacturing.jpg" alt="Material transport between factory warehouses, workshops and production lines" width="1280" height="800" loading="lazy">
+  <figcaption>Material movement among factory warehouses, workshops, production lines and finished-goods stores.</figcaption>
+</figure>
+
 **Problem:** Raw materials, parts and work-in-progress move continuously among warehouses, workshops and production lines. Some routes are short but run many times per day.
 
 **Typical customers:** Automotive-parts, electronics, appliance, machining and food manufacturers; industrial parks.
@@ -2607,6 +2663,11 @@ WheelOS focuses on **frequent, repetitive, short-distance material transport** i
 <div id="medical-logistics"></div>
 
 ## 2. Medical and pharmaceutical transport
+
+<figure class="application-visual">
+  <img src="/images/solutions/medical-logistics.jpg" alt="Medical supply transport between hospitals and laboratories" width="1280" height="720" loading="lazy">
+  <figcaption>Specimen and medical-supply transport among hospital campuses and laboratories; professional compliance requirements still apply.</figcaption>
+</figure>
 
 **Problem:** Hospitals, laboratories and hospital groups need frequent, small-batch, time-defined movement of specimens and supplies.
 
@@ -2622,6 +2683,11 @@ WheelOS focuses on **frequent, repetitive, short-distance material transport** i
 
 ## 3. Retail and chain-store replenishment
 
+<figure class="application-visual">
+  <img src="/images/solutions/retail-replenishment.jpg" alt="Regional warehouse replenishing nearby chain stores" width="1280" height="720" loading="lazy">
+  <figcaption>Small-batch replenishment from a regional warehouse or distribution center to nearby stores.</figcaption>
+</figure>
+
 **Problem:** A regional warehouse or distribution center replenishes nearby stores frequently. Small batches reduce store inventory but increase delivery organization cost.
 
 **Typical customers:** Convenience and fresh-food chains, supermarkets, restaurant chains, central kitchens and supply-chain companies.
@@ -2635,6 +2701,11 @@ WheelOS focuses on **frequent, repetitive, short-distance material transport** i
 <div id="logistics-campus"></div>
 
 ## 4. Warehouse and logistics-campus transport
+
+<figure class="application-visual">
+  <img src="/images/solutions/logistics-campus.jpg" alt="Short-distance transport among warehouses, docks and staging areas in a logistics campus" width="1280" height="853" loading="lazy">
+  <figcaption>Short-haul movement among warehouses, loading docks and staging areas.</figcaption>
+</figure>
 
 **Problem:** Multiple warehouses, docks, staging areas and tenant operations create continuous short-haul transfer demand.
 
@@ -2650,6 +2721,11 @@ WheelOS focuses on **frequent, repetitive, short-distance material transport** i
 
 ## 5. Campus, hotel and large-venue logistics
 
+<figure class="application-visual">
+  <img src="/images/solutions/campus-logistics.jpg" alt="Facility logistics among buildings in a campus, hotel or large venue" width="1280" height="720" loading="lazy">
+  <figcaption>Logistics among kitchens, laundry, warehouses and different buildings.</figcaption>
+</figure>
+
 **Problem:** Food, linen, supplies and equipment move among buildings, kitchens, warehouses and service areas, but any single task may be infrequent.
 
 **Typical customers:** Universities, hospital campuses, hotel groups, resorts, scenic areas, property managers and industrial-park operators.
@@ -2663,6 +2739,11 @@ WheelOS focuses on **frequent, repetitive, short-distance material transport** i
 <div id="specialized-sites"></div>
 
 ## 6. Ports, airports and specialized operating areas
+
+<figure class="application-visual">
+  <img src="/images/solutions/specialized-sites.jpg" alt="Fixed-route cargo transport inside a port, airport or specialized operating area" width="1280" height="720" loading="lazy">
+  <figcaption>Fixed-route transport inside ports, airports and specialized operating areas.</figcaption>
+</figure>
 
 **Problem:** Ports, airports, rail yards and energy sites need fixed cargo shuttling and horizontal transport inside a defined operating area.
 
@@ -2752,7 +2833,7 @@ WheelOS does not operate parcel collection, sorting, last-mile delivery or parce
 3. Review chassis, sensor placement, site map, safety and acceptance metrics.
 4. Run a minimum integration and validation project in a controlled environment.
 
-[See the seven-stage path from discovery to pilot acceptance →](/en/solutions/delivery-process)
+[See the five-milestone customer journey from requirements to pilot deployment →](/en/solutions/delivery-process)
 
 <div class="solution-cta">
   <div>
@@ -2761,6 +2842,7 @@ WheelOS does not operate parcel collection, sorting, last-mile delivery or parce
   </div>
   <div class="solution-actions">
     <a class="primary" href="mailto:support@wheelos.cn?subject=WheelOS%20short-distance%20transport%20assessment">Request an assessment</a>
+    <a href="/en/solutions/fit-assessment">Start the five-gate check</a>
     <a href="/en/solutions/delivery-process">View the delivery process</a>
     <a href="/en/solutions/integrated-autonomous-driving-kit">View the integrated kit</a>
   </div>
@@ -2768,72 +2850,101 @@ WheelOS does not operate parcel collection, sorting, last-mile delivery or parce
 
 ---
 
-## [zh-CN] 自动驾驶项目交付与试点流程
+## [zh-CN] 从需求沟通到试点部署
 
 <!-- source: solutions/delivery-process.md; route: /solutions/delivery-process; content_type: delivery; status_code: design-guidance -->
 
 ---
-title: 自动驾驶项目交付与试点流程
-description: 像建房子一样展示自动驾驶短途运输项目的场景调研、方案设计、集成、验证、试点和规模化过程。
+title: 从需求沟通到试点部署
+description: 用五个客户里程碑展示自动驾驶短途运输项目从需求沟通、场景评估、方案设计、单线路试点到扩展决策的过程。
 status: 设计建议
 content_type: delivery
-keywords: [交付流程, 试点, 现场调研, 集成, 标定, 验证, 运营指标, 证据包]
-scope: WheelOS 短途自动驾驶运输项目的规划与交付方法
-decision_summary: 把项目拆成可检查的阶段，每个阶段都有客户可见交付物、通过条件和未验证边界；未通过前一阶段不进入下一阶段。
-best_for: [受控场景试点, 固定路线运输, 车辆和底盘集成, 可量化运营指标]
-not_for: [跳过现场评估直接部署, 未确认底盘就承诺运行, 无证据即宣称量产]
-next_action: 从场景调研开始，明确任务、运行边界、车辆条件、验收指标和阶段负责人。
+keywords: [交付流程, 试点部署, 需求沟通, 现场调研, 方案设计, 验收指标]
+scope: WheelOS 短途自动驾驶运输项目的客户交付与试点方法
+decision_summary: 先验证一条线路和一类货物，再决定是否扩展；每个里程碑都有输入、交付物和通过条件。
+best_for: [单线路试点, 固定路线运输, 可量化的运营指标, 分阶段投资]
+not_for: [跳过现场评估直接部署, 未确认底盘就承诺运行, 没有证据就宣称量产]
+next_action: 先完成场景适配判断，再准备货物、起终点、频次、车辆和当前成本信息。
 cta_url: mailto:support@wheelos.cn?subject=WheelOS%20pilot%20delivery%20plan
 ---
 
-# 自动驾驶项目交付与试点流程
+# 从需求沟通到试点部署
 
-> 自动驾驶项目更适合像建房子一样推进：先勘察地基，再设计和施工，最后验收和入住。每一步都应该能看到成果、问题和证据，而不是先卖一个“成品”，再让客户承担集成风险。
+> 不建议一开始就建设完整无人运输网络。先选一条合适线路，验证业务价值和运行条件，再逐步扩大。整个过程像建房子：地基、结构、水电、验收和试运行都必须看得见。
 
-## 客户看到的七个阶段
+<div class="delivery-flow" role="list" aria-label="五个客户交付阶段">
+  <div class="delivery-flow__node" role="listitem"><span>01</span><strong>需求沟通</strong></div>
+  <div class="delivery-flow__arrow" aria-hidden="true">→</div>
+  <div class="delivery-flow__node" role="listitem"><span>02</span><strong>初步场景评估</strong></div>
+  <div class="delivery-flow__arrow" aria-hidden="true">→</div>
+  <div class="delivery-flow__node" role="listitem"><span>03</span><strong>现场调研与方案设计</strong></div>
+  <div class="delivery-flow__arrow" aria-hidden="true">→</div>
+  <div class="delivery-flow__node" role="listitem"><span>04</span><strong>小规模试点</strong></div>
+  <div class="delivery-flow__arrow" aria-hidden="true">→</div>
+  <div class="delivery-flow__node" role="listitem"><span>05</span><strong>复盘与扩展决策</strong></div>
+</div>
 
-| 阶段 | 客户能看到什么 | 关键交付物 | 进入下一阶段的条件 |
+## 五个客户里程碑
+
+### 1. 提交基本需求
+
+| 客户会看到 | 需要提供 | WheelOS 交付 | 通过条件 |
 | --- | --- | --- | --- |
-| 1. 场景调研 | 任务、班次、路线、货物、交接和当前成本 | 场景筛选表和初步价值测算 | 高频、可运营、有明确负责人 |
-| 2. 边界设计 | 运行设计域、站点、路线、风险和法规问题 | 项目边界、责任矩阵和初步验收指标 | 风险可接受且责任明确 |
-| 3. 车辆与传感器 | 底盘、传感器布局、计算平台和接口 | 硬件配置、接口清单和安装方案 | 线控和关键 CAN 信号可确认 |
-| 4. 软件与数据集成 | 时间同步、坐标、定位、感知、规划和控制链路 | 配置、标定记录、数据记录和系统检查表 | 数据链路和基础功能可回放 |
-| 5. 回放与受控场地验证 | 测试场景、指标、失败样本和问题清单 | 验证报告、失败案例和修复记录 | 达到约定阈值且边界清楚 |
-| 6. 试点运行 | 每日任务、人员分工、异常处理和运营看板 | 运行日志、KPI、异常闭环和阶段总结 | 能稳定运营并按约定收集证据 |
-| 7. 评估与扩展 | 是否具备复制条件、成本和风险 | 证据包、复盘和扩展建议 | 有可复核结果和明确剩余风险 |
+| 场景信息清单、初步沟通记录 | 运输货物、起点终点、运输频次、运行区域、现有车辆和人员、特殊要求 | 需求整理、缺失信息清单和下一步安排 | 运输任务和业务目标可以描述清楚 |
 
-## 每阶段都要“看得见”
+### 2. 初步场景评估
 
-### 客户可以要求查看
+| 客户会看到 | 需要提供 | WheelOS 交付 | 通过条件 |
+| --- | --- | --- | --- |
+| 五关判断摘要、主要风险和待确认项 | 真实任务数据、线路条件、车辆基础、安全责任和当前成本 | 场景适配建议、初步价值判断和是否需要现场调研 | 没有未解决的硬性阻断项 |
 
-- 现场照片、路线图和运行设计域。
-- 传感器与底盘接口清单。
-- 时间同步、标定和数据记录检查结果。
-- 回放数据、场景清单、指标和失败样本。
-- 问题清单、修复记录和未解决风险。
-- 试点运营看板和阶段复盘。
+可直接使用[场景适配判断工具](/solutions/fit-assessment)。
 
-### WheelOS 应提供
+### 3. 现场调研与方案设计
 
-- 明确的项目阶段和负责人。
-- 每个阶段的输入、输出和验收条件。
-- 标准配置、接口文档和测试记录格式。
-- 技术风险、依赖和未验证边界。
-- 可追溯的版本、配置和证据索引。
+| 客户会看到 | 双方共同确认 | WheelOS 交付 | 通过条件 |
+| --- | --- | --- | --- |
+| 现场问题、车辆接口、路线和风险清单 | 运行设计域、站点、装卸、责任人、验收指标和项目范围 | 方案边界、车辆与传感器建议、集成计划、责任矩阵和报价输入 | 安全、法规、底盘和各方责任可落实 |
 
-## 试点必须记录的指标
+### 4. 小规模试点与效果验证
 
-| 指标 | 建议先定义的基线 | 用途 |
+| 客户会看到 | 试点范围 | WheelOS 交付 | 通过条件 |
+| --- | --- | --- | --- |
+| 每日任务看板、异常清单、指标和周报 | 一条线路或一类货物 | 系统集成、标定、运行日志、问题闭环和阶段报告 | 达到约定指标，且风险可控、问题可追踪 |
+
+试点至少记录：
+
+| 指标 | 基线 | 试点结果 |
 | --- | --- | --- |
-| 运输频次 | 每日任务数、班次和高峰时段 | 判断真实需求和车辆利用率 |
-| 人工投入 | 司机、搬运、调度和人工干预小时 | 与试点后的投入比较 |
-| 车辆利用率 | 有效运行时间、等待时间和空驶时间 | 判断单车经济性 |
-| 准点率 | 按约定时间窗口完成任务的比例 | 衡量业务可用性 |
-| 异常次数 | 每百次任务的接管、急停、路径阻塞和人工恢复 | 识别系统与流程薄弱点 |
-| 单位成本 | 每次任务、每公里或每个托盘的运营成本 | 判断商业可行性 |
-| 安全事件 | 分级记录碰撞、险情、违规和现场风险 | 触发停机和整改 |
+| 运输频次 | 每日任务数、班次和高峰时段 | 实际完成任务数 |
+| 人工投入 | 司机、搬运、调度和人工干预小时 | 试点期间人工投入 |
+| 车辆利用率 | 有效运行、等待和空驶时间 | 单车有效利用率 |
+| 准点率 | 约定时间窗口 | 按窗口完成任务比例 |
+| 异常次数 | 接管、急停、阻塞和人工恢复 | 每百次任务异常次数 |
+| 单位成本 | 每次任务、公里或托盘成本 | 试点实际单位成本 |
+| 安全事件 | 分级规则 | 碰撞、险情、违规和现场风险 |
 
-这些是试点评价指标，不是 WheelOS 已实现的性能数据。只有在实际项目中记录并复核后，才能产生证据。
+这些是项目试点指标，不是 WheelOS 已经实现的性能数据。
+
+### 5. 复盘优化，决定是否扩展
+
+| 客户会看到 | 复盘内容 | 扩展条件 | 不扩展时 |
+| --- | --- | --- | --- |
+| 证据包、指标对比、失败样本和剩余风险 | 业务价值、运行稳定性、成本、异常和安全边界 | 达到目标且具备增加车辆、线路或任务的条件 | 保留已验证经验，优化方案或重新评估 |
+
+## 七个工程子步骤
+
+客户看到的是五个里程碑，内部可以继续拆成七个工程步骤：
+
+| 工程步骤 | 所属客户里程碑 | 主要输出 |
+| --- | --- | --- |
+| 场景调研 | 1 | 任务清单和初步价值测算 |
+| 边界设计 | 2 | 运行设计域、责任矩阵和验收指标 |
+| 车辆与传感器 | 3 | 硬件配置、接口清单和安装方案 |
+| 软件与数据集成 | 3–4 | 配置、标定、数据记录和系统检查表 |
+| 回放与受控场地验证 | 4 | 验证报告、失败案例和修复记录 |
+| 试点运行 | 4 | KPI、异常闭环和运行记录 |
+| 评估与扩展 | 5 | 证据包、复盘和扩展建议 |
 
 ## 不跳阶段
 
@@ -2841,9 +2952,9 @@ cta_url: mailto:support@wheelos.cn?subject=WheelOS%20pilot%20delivery%20plan
 - 时间同步、坐标和标定未检查，不进入路线性能结论。
 - 没有回放和失败样本，不进入场地验证结论。
 - 没有基线和运营指标，不进入商业效果结论。
-- 没有完整证据记录，不把试点升级为“已验证”或量产能力。
+- 没有证据记录，不把试点升级为“已验证”或量产能力。
 
-## 试点结束时应形成的证据包
+## 试点结束时的证据包
 
 1. 任务和运行设计域。
 2. 软件、配置、车辆和传感器版本。
@@ -2855,83 +2966,112 @@ cta_url: mailto:support@wheelos.cn?subject=WheelOS%20pilot%20delivery%20plan
 
 <div class="solution-cta">
   <div>
-    <h2>先看项目如何一步步搭起来</h2>
-    <p>提交场景和车辆条件，我们会从调研、边界、集成、验证到试点逐阶段明确交付物和通过条件。</p>
+    <h2>先选一条线路验证，再决定是否扩大</h2>
+    <p>从场景判断开始，明确任务、运行边界、车辆条件和试点指标。</p>
   </div>
   <div class="solution-actions">
-    <a class="primary" href="mailto:support@wheelos.cn?subject=WheelOS%20pilot%20delivery%20plan">讨论试点计划</a>
-    <a href="/solutions/applications">先评估应用场景</a>
+    <a class="primary" href="/solutions/fit-assessment">开始场景适配判断</a>
+    <a href="/solutions/applications">查看六类应用场景</a>
   </div>
 </div>
 
 ---
 
-## [en] Autonomous Project Delivery and Pilot Process
+## [en] From Requirements to Pilot Deployment
 
 <!-- source: en/solutions/delivery-process.md; route: /en/solutions/delivery-process; content_type: delivery; status_code: design-guidance -->
 
 ---
-title: Autonomous Project Delivery and Pilot Process
-description: A transparent, house-building-style process for autonomous short-distance transport projects from discovery through integration, validation, pilot and scale.
+title: From Requirements to Pilot Deployment
+description: A five-milestone customer journey from requirements and scenario assessment through solution design, a single-route pilot and scale-up decision.
 status: design guidance
 content_type: delivery
-keywords: [delivery process, pilot, site assessment, integration, calibration, validation, operations metrics, evidence pack]
-scope: Planning and delivery method for WheelOS short-distance autonomous transport projects
-decision_summary: Break the project into reviewable stages with customer-visible deliverables, exit criteria and unresolved boundaries. Do not advance without passing the previous gate.
-best_for: [controlled-site pilots, fixed-route transport, vehicle and chassis integration, measurable operating metrics]
-not_for: [deployment without site assessment, operating commitments before chassis confirmation, production claims without evidence]
-next_action: Start with application discovery and define the task, operating boundary, vehicle conditions, acceptance metrics and stage owners.
+keywords: [delivery process, pilot deployment, requirements, site survey, solution design, acceptance metrics]
+scope: Customer delivery and pilot method for WheelOS short-distance autonomous transport projects
+decision_summary: Validate one route and one cargo type before deciding whether to expand. Every milestone has inputs, deliverables and exit criteria.
+best_for: [single-route pilots, fixed-route transport, measurable operating metrics, staged investment]
+not_for: [deployment without a site assessment, operating commitments before chassis confirmation, production claims without evidence]
+next_action: Complete the scenario fit assessment, then prepare cargo, origins and destinations, frequency, vehicle and current cost data.
 cta_url: mailto:support@wheelos.cn?subject=WheelOS%20pilot%20delivery%20plan
 ---
 
-# Autonomous Project Delivery and Pilot Process
+# From Requirements to Pilot Deployment
 
-> An autonomous-driving project is easier to trust when it is built like a house: inspect the ground first, then design, build, inspect and move in. Customers should see outputs, issues and evidence at each step instead of buying an opaque “finished product” and inheriting the integration risk.
+> Do not start by building a complete autonomous transport network. Validate one suitable route and its business value, then expand. Build the project like a house: foundation, structure, utilities, inspection and trial operation must all be visible.
 
-## Seven customer-visible stages
+<div class="delivery-flow" role="list" aria-label="Five customer delivery stages">
+  <div class="delivery-flow__node" role="listitem"><span>01</span><strong>Requirements</strong></div>
+  <div class="delivery-flow__arrow" aria-hidden="true">→</div>
+  <div class="delivery-flow__node" role="listitem"><span>02</span><strong>Initial assessment</strong></div>
+  <div class="delivery-flow__arrow" aria-hidden="true">→</div>
+  <div class="delivery-flow__node" role="listitem"><span>03</span><strong>Site survey and design</strong></div>
+  <div class="delivery-flow__arrow" aria-hidden="true">→</div>
+  <div class="delivery-flow__node" role="listitem"><span>04</span><strong>Single-route pilot</strong></div>
+  <div class="delivery-flow__arrow" aria-hidden="true">→</div>
+  <div class="delivery-flow__node" role="listitem"><span>05</span><strong>Review and scale</strong></div>
+</div>
 
-| Stage | What the customer sees | Key deliverables | Gate to continue |
+## Five customer milestones
+
+### 1. Submit the basic requirements
+
+| Customer sees | Customer provides | WheelOS delivers | Exit criteria |
 | --- | --- | --- | --- |
-| 1. Application discovery | Tasks, shifts, routes, cargo, handoffs and current cost | Application screen and preliminary value case | Frequent work, operable demand and a clear owner |
-| 2. Boundary design | ODD, stops, routes, risks and regulatory issues | Project boundary, responsibility matrix and draft acceptance metrics | Risks acceptable and responsibilities explicit |
-| 3. Vehicle and sensors | Chassis, sensor placement, compute and interfaces | Hardware configuration, interface list and installation plan | Drive-by-wire and critical CAN signals confirmed |
-| 4. Software and data integration | Time sync, frames, localization, perception, planning and control path | Configuration, calibration records, data recording and system checklist | Data path and baseline functions are replayable |
-| 5. Replay and controlled-site validation | Test scenarios, metrics, failure samples and issue list | Validation report, failure cases and fix records | Agreed thresholds met and boundaries documented |
-| 6. Pilot operation | Daily tasks, staffing, exception handling and operations dashboard | Operating logs, KPIs, issue closure and stage review | Stable operation and evidence collection |
-| 7. Assessment and expansion | Whether the solution is repeatable, cost-effective and safe to extend | Evidence pack, retrospective and expansion recommendation | Reviewable results and explicit residual risk |
+| Scenario checklist and meeting notes | Cargo, origins and destinations, frequency, operating area, current vehicles and staff, special requirements | Requirement summary, missing-information list and next steps | The transport task and business objective are clear |
 
-## Make every stage visible
+### 2. Initial scenario assessment
 
-### The customer should be able to inspect
+| Customer sees | Customer provides | WheelOS delivers | Exit criteria |
+| --- | --- | --- | --- |
+| Five-gate assessment, main risks and unknowns | Actual task data, route conditions, vehicle basis, safety responsibility and current cost | Fit recommendation, preliminary value judgment and whether a site survey is warranted | No unresolved hard blocker |
 
-- Site photos, route map and operating design domain.
-- Sensor and chassis-interface lists.
-- Time-sync, calibration and data-recording checks.
-- Replay data, scenario list, metrics and failure samples.
-- Issue list, fixes and unresolved risks.
-- Pilot dashboard and stage retrospective.
+Use the [scenario fit assessment tool](/en/solutions/fit-assessment).
 
-### WheelOS should provide
+### 3. Site survey and solution design
 
-- Explicit project stages and owners.
-- Inputs, outputs and acceptance conditions for each stage.
-- Standard configurations, interface documentation and test-record formats.
-- Technical risks, dependencies and unverified boundaries.
-- Traceable versions, configuration and evidence indexes.
+| Customer sees | Jointly confirmed | WheelOS delivers | Exit criteria |
+| --- | --- | --- | --- |
+| Site issues, vehicle interfaces, route and risk list | ODD, stops, loading, owners, acceptance metrics and project scope | Solution boundary, vehicle and sensor recommendation, integration plan, responsibility matrix and quote inputs | Safety, regulation, chassis and responsibilities can be assigned |
 
-## Metrics every pilot must record
+### 4. Single-route pilot and validation
 
-| Metric | Baseline to define first | Purpose |
+| Customer sees | Pilot scope | WheelOS delivers | Exit criteria |
+| --- | --- | --- | --- |
+| Daily task dashboard, exception list, metrics and weekly report | One route or one cargo type | Integration, calibration, operating logs, issue closure and stage report | Targets met with controlled risk and traceable issues |
+
+The pilot must record at least:
+
+| Metric | Baseline | Pilot result |
 | --- | --- | --- |
-| Transport frequency | Tasks per day, shifts and peak windows | Test real demand and vehicle utilization |
-| Labor input | Driver, material-handler, dispatch and intervention hours | Compare with the post-pilot process |
-| Vehicle utilization | Productive run time, waiting and empty running | Assess single-vehicle economics |
-| On-time rate | Tasks completed inside the agreed window | Measure operational availability |
-| Exceptions | Interventions, emergency stops, blocked paths and manual recovery per 100 tasks | Expose system and process weaknesses |
-| Unit cost | Cost per task, kilometer or pallet | Assess commercial viability |
-| Safety events | Collisions, near misses, violations and site risks, classified | Trigger stop and corrective action |
+| Transport frequency | Daily tasks, shifts and peak windows | Actual completed tasks |
+| Labor input | Driver, handler, dispatch and intervention hours | Labor used during the pilot |
+| Vehicle utilization | Productive run, waiting and empty-running time | Effective utilization per vehicle |
+| On-time rate | Agreed time window | Share completed inside the window |
+| Exceptions | Interventions, emergency stops, blocked paths and manual recovery | Exceptions per 100 tasks |
+| Unit cost | Cost per task, kilometer or pallet | Actual pilot unit cost |
+| Safety events | Classification rules | Collisions, near misses, violations and site risks |
 
-These are pilot-evaluation metrics, not current WheelOS performance measurements. Evidence exists only after an actual project records and reviews them.
+These are pilot metrics, not current WheelOS performance data.
+
+### 5. Review, optimize and decide whether to expand
+
+| Customer sees | Review content | Expansion gate | If expansion is deferred |
+| --- | --- | --- | --- |
+| Evidence pack, metric comparison, failure samples and residual risk | Business value, operating stability, cost, exceptions and safety boundary | Targets met and conditions exist to add vehicles, routes or tasks | Retain validated learning, improve the solution or reassess |
+
+## Seven engineering sub-steps
+
+Customers see five milestones; internally they can be decomposed into seven engineering steps:
+
+| Engineering step | Customer milestone | Main output |
+| --- | --- | --- |
+| Scenario discovery | 1 | Task list and preliminary value case |
+| Boundary design | 2 | ODD, responsibility matrix and acceptance metrics |
+| Vehicle and sensors | 3 | Hardware configuration, interface list and installation plan |
+| Software and data integration | 3–4 | Configuration, calibration, recordings and system checklist |
+| Replay and controlled-site validation | 4 | Validation report, failures and corrective records |
+| Pilot operation | 4 | KPIs, issue closure and operating logs |
+| Assessment and expansion | 5 | Evidence pack, retrospective and expansion recommendation |
 
 ## Do not skip stages
 
@@ -2939,7 +3079,7 @@ These are pilot-evaluation metrics, not current WheelOS performance measurements
 - Do not infer route performance before time sync, frames and calibration are checked.
 - Do not make site-validation conclusions without replay and failure samples.
 - Do not make business-impact conclusions without a baseline and operating metrics.
-- Do not upgrade a pilot to “verified” or a production capability without a complete evidence record.
+- Do not upgrade a pilot to “verified” or a production capability without an evidence record.
 
 ## Evidence pack at pilot close
 
@@ -2953,12 +3093,238 @@ These are pilot-evaluation metrics, not current WheelOS performance measurements
 
 <div class="solution-cta">
   <div>
-    <h2>See how the project is built, step by step</h2>
-    <p>Share the application and vehicle context. We will define deliverables and exit criteria across discovery, boundaries, integration, validation and pilot.</p>
+    <h2>Validate one route before deciding to scale</h2>
+    <p>Start with the scenario assessment, then define the task, operating boundary, vehicle conditions and pilot metrics.</p>
   </div>
   <div class="solution-actions">
-    <a class="primary" href="mailto:support@wheelos.cn?subject=WheelOS%20pilot%20delivery%20plan">Discuss a pilot plan</a>
-    <a href="/en/solutions/applications">Assess the application first</a>
+    <a class="primary" href="/en/solutions/fit-assessment">Start the fit assessment</a>
+    <a href="/en/solutions/applications">Explore six applications</a>
+  </div>
+</div>
+
+---
+
+## [zh-CN] 自动驾驶场景适配判断
+
+<!-- source: solutions/fit-assessment.md; route: /solutions/fit-assessment; content_type: assessment; status_code: design-guidance -->
+
+---
+title: 自动驾驶场景适配判断
+description: 通过运输需求、线路、车辆与货物、安全合规和经济性五道关卡，判断短途运输场景是否值得进入现场评估。
+status: 设计建议
+content_type: assessment
+keywords: [场景评估, 自动驾驶适配, 固定路线, 安全合规, 经济性, 试点]
+scope: 企业短途自动驾驶运输项目的初步适用性筛选
+decision_summary: 五道关卡全部回答后，工具会给出“进入现场评估、补齐信息或当前不建议部署”的本地结论。
+best_for: [高频固定线路, 明确运营主体, 可管理场地, 可估算运营成本]
+not_for: [合规责任未落实, 低频偶发运输, 无明确负责人和预算, 仅做无人驾驶展示]
+next_action: 完成五步判断，打印或复制摘要，再决定是否开展现场调研。
+cta_url: mailto:support@wheelos.cn?subject=WheelOS%20scenario%20fit%20assessment
+layout: doc
+sidebar: false
+aside: false
+outline: [2, 3]
+---
+
+<script setup>
+import ScenarioFitAssessment from '../.vitepress/theme/components/ScenarioFitAssessment.vue'
+</script>
+
+# 自动驾驶场景适配判断
+
+> 先判断任务是否值得做，再选择车辆和系统。这个工具只在浏览器本地计算，不会上传答案。
+
+<ScenarioFitAssessment />
+
+## 静态判断摘要
+
+即使不使用交互工具，也可以先检查以下五类条件：
+
+| 关卡 | 核心问题 | 判断影响 |
+| --- | --- | --- |
+| 运输需求 | 是否长期、重复、频次稳定，并持续投入司机或车辆？ | 低频偶发任务通常难以形成经济性 |
+| 线路条件 | 起终点、通道、装卸区和交接方式是否明确、可管理？ | 复杂混行和不确定交接会增加项目风险 |
+| 车辆与货物 | 重量、尺寸、温控、装卸和业务系统接口是否明确？ | 非标准货物需要额外的车辆或作业方案 |
+| 安全与合规 | 准入、许可、安全责任、保险和异常处理是否落实？ | 关键责任未落实时，不应进入商业部署 |
+| 经济性 | 当前成本、完整投入和每日有效任务量是否可估算？ | 需要与现有运输方式比较，而不是只看自动驾驶功能 |
+
+## 完整判断清单
+
+### 运输需求
+
+- [ ] 运输任务长期存在，不属于偶发需求。
+- [ ] 每天或每周有相对稳定的运输频次。
+- [ ] 起点、终点和主要运输任务较明确。
+- [ ] 当前持续投入司机、车辆或调度资源。
+
+### 线路条件
+
+- [ ] 线路相对固定，起终点明确。
+- [ ] 道路和作业区域具备车辆通行条件。
+- [ ] 装卸与交接位置相对固定。
+- [ ] 人车混行、路口和临时障碍可评估、可管理。
+
+### 车辆与货物
+
+- [ ] 货物重量、尺寸和运输要求明确。
+- [ ] 车辆载荷和货厢空间满足需求。
+- [ ] 温控、保温、密封等要求已经明确并有对应方案。
+- [ ] 装卸流程和交接方式可以标准化。
+- [ ] 仓储、调度等业务系统是否需要对接已经明确。
+
+### 安全与合规
+
+- [ ] 车辆运行区域和准入要求已经明确。
+- [ ] 运营许可、场地管理和安全责任可以落实。
+- [ ] 异常处理、紧急停车和现场响应机制可以落实。
+- [ ] 保险和事故责任安排明确。
+- [ ] 特殊货物运输要求能够满足，或能够明确排除。
+
+### 经济性
+
+- [ ] 已了解当前司机、车辆和运输服务成本。
+- [ ] 可估算车辆、系统、部署、维护和运营成本。
+- [ ] 每日有效运输任务量能够支撑投入。
+- [ ] 有明确业务负责人、预算和合作意愿。
+
+## 常见的不建议部署情况
+
+- 任务只是短期展示，无法形成稳定利用率。
+- 没有明确运营主体、预算和长期计划。
+- 线路、装卸和交接流程高度不确定。
+- 法规、保险或安全责任尚未落实。
+- 特殊货物要求无法满足，也没有备选方案。
+- 客户只关注“无人驾驶”，没有业务指标。
+
+## 评估之后
+
+- **建议进入现场评估：** 继续核对车辆、底盘、路线、场地和验收指标。
+- **信息不足：** 先补齐关键数据，不急于采购车辆。
+- **当前不建议部署：** 先解决需求、线路、安全责任或经济性问题。
+
+[查看从需求沟通到试点部署的流程 →](/solutions/delivery-process)
+
+<div class="solution-cta">
+  <div>
+    <h2>需要一起看你的真实运输任务？</h2>
+    <p>发送货物、起终点、频次、车辆和当前的运输方式，我们会协助完成初步筛选。</p>
+  </div>
+  <div class="solution-actions">
+    <a class="primary" href="mailto:support@wheelos.cn?subject=WheelOS%20scenario%20fit%20assessment">提交场景摘要</a>
+    <a href="/solutions/applications">查看六类应用场景</a>
+  </div>
+</div>
+
+---
+
+## [en] Autonomous Driving Scenario Fit Assessment
+
+<!-- source: en/solutions/fit-assessment.md; route: /en/solutions/fit-assessment; content_type: assessment; status_code: design-guidance -->
+
+---
+title: Autonomous Driving Scenario Fit Assessment
+description: Assess short-distance transport opportunities across demand, routes, vehicle and cargo, safety and compliance, and economics.
+status: design guidance
+content_type: assessment
+keywords: [scenario assessment, autonomous-driving fit, fixed routes, safety compliance, economics, pilot]
+scope: Initial suitability screening for enterprise short-distance autonomous transport projects
+decision_summary: After completing five gates, the tool returns a local recommendation to proceed to site assessment, collect more information, or defer deployment.
+best_for: [frequent fixed routes, a clear operating owner, manageable sites, estimable operating cost]
+not_for: [unresolved compliance responsibility, infrequent transport, no clear owner or budget, autonomous driving as a demonstration only]
+next_action: Complete the five steps, print or copy the summary, then decide whether to start a site survey.
+cta_url: mailto:support@wheelos.cn?subject=WheelOS%20scenario%20fit%20assessment
+layout: doc
+sidebar: false
+aside: false
+outline: [2, 3]
+---
+
+<script setup>
+import ScenarioFitAssessment from '../../.vitepress/theme/components/ScenarioFitAssessment.vue'
+</script>
+
+# Autonomous Driving Scenario Fit Assessment
+
+> Decide whether the transport task is worth solving before selecting a vehicle or system. This tool runs entirely in your browser and does not upload your answers.
+
+<ScenarioFitAssessment />
+
+## Static decision summary
+
+Even without the interactive tool, check these five areas first:
+
+| Gate | Core question | Decision impact |
+| --- | --- | --- |
+| Transport demand | Is the work long-term, repetitive, stable and already consuming drivers or vehicles? | One-off or low-frequency demand rarely supports a viable case |
+| Route conditions | Are origins, destinations, corridors, loading areas and handoffs clear and manageable? | Complex mixed traffic and uncertain handoffs raise project risk |
+| Vehicle and cargo | Are weight, dimensions, temperature, loading and system interfaces understood? | Non-standard cargo requires additional vehicle or process design |
+| Safety and compliance | Are access, permits, safety responsibility, insurance and exceptions resolved? | Do not enter commercial deployment while critical responsibility is unresolved |
+| Economics | Are current cost, full deployment cost and productive daily work estimable? | Compare total cost with the existing transport method, not only autonomous features |
+
+## Complete assessment checklist
+
+### Transport demand
+
+- [ ] The transport task exists long-term rather than as a one-off need.
+- [ ] There is a relatively stable daily or weekly transport frequency.
+- [ ] Origins, destinations and primary tasks are clear.
+- [ ] Drivers, vehicles or dispatch resources are currently committed.
+
+### Route conditions
+
+- [ ] The route is relatively fixed with clear origins and destinations.
+- [ ] Roads and operating areas are passable for the intended vehicle.
+- [ ] Loading and handoff locations are relatively fixed.
+- [ ] Mixed traffic, junctions and temporary obstacles can be assessed and managed.
+
+### Vehicle and cargo
+
+- [ ] Cargo weight, dimensions and transport requirements are defined.
+- [ ] Vehicle payload and cargo space satisfy the requirement.
+- [ ] Temperature, insulation or sealing requirements are defined with a viable solution.
+- [ ] Loading and handoff processes can be standardized.
+- [ ] The need to connect warehouse or dispatch systems is understood.
+
+### Safety and compliance
+
+- [ ] The operating area and access requirements are defined.
+- [ ] Operating permits, site management and safety responsibility can be assigned.
+- [ ] Exception handling, emergency stop and site-response procedures can be implemented.
+- [ ] Insurance and incident responsibility are defined.
+- [ ] Special-cargo requirements can be met or explicitly excluded.
+
+### Economics
+
+- [ ] The current driver, vehicle and transport-service cost is understood.
+- [ ] Vehicle, system, deployment, maintenance and operating costs can be estimated.
+- [ ] Daily productive work can support the investment.
+- [ ] A business owner, budget and willingness to cooperate are present.
+
+## Common cases for deferring deployment
+
+- The task is a short-term demonstration without stable utilization.
+- No operating owner, budget or long-term plan exists.
+- Routes, loading or handoffs are highly uncertain.
+- Regulation, insurance or safety responsibility remains unresolved.
+- Special-cargo requirements cannot be met and no alternative exists.
+- The customer focuses only on “driverless” without a business metric.
+
+## After the assessment
+
+- **Proceed to site assessment:** review the vehicle, chassis, route, site and acceptance metrics.
+- **Information is incomplete:** collect critical data before purchasing a vehicle.
+- **Not ready for deployment yet:** resolve demand, route, safety or economic blockers first.
+
+[View the path from requirements to pilot deployment →](/en/solutions/delivery-process)
+
+<div class="solution-cta">
+  <div>
+    <h2>Want to review a real transport task with us?</h2>
+    <p>Send the cargo, origin and destination, frequency, vehicle and current transport method for an initial fit review.</p>
+  </div>
+  <div class="solution-actions">
+    <a class="primary" href="mailto:support@wheelos.cn?subject=WheelOS%20scenario%20fit%20assessment">Send the scenario summary</a>
+    <a href="/en/solutions/applications">Explore six applications</a>
   </div>
 </div>
 
@@ -2992,7 +3358,8 @@ aside: false
     面向工厂、医院、零售、物流园区和大型机构，提供预集成自动驾驶套件、车辆场景适配与项目服务。先验证运输任务是否适合，再选择技术配置和商业模式。
   </p>
   <div class="solution-actions">
-    <a class="primary" href="/solutions/applications">评估我的场景</a>
+    <a class="primary" href="/solutions/fit-assessment">开始场景适配判断</a>
+    <a href="/solutions/applications">查看六类应用场景</a>
     <a href="/solutions/integrated-autonomous-driving-kit">查看一体化套件</a>
   </div>
 </div>
@@ -3094,7 +3461,8 @@ aside: false
     For factories, hospitals, retailers, logistics parks and large institutions, WheelOS combines a pre-integrated autonomous-driving kit, vehicle/site adaptation and project services. Validate the transport task first, then select the technical and commercial structure.
   </p>
   <div class="solution-actions">
-    <a class="primary" href="/en/solutions/applications">Assess my application</a>
+    <a class="primary" href="/en/solutions/fit-assessment">Start the fit assessment</a>
+    <a href="/en/solutions/applications">Explore six applications</a>
     <a href="/en/solutions/integrated-autonomous-driving-kit">Explore the integrated kit</a>
   </div>
 </div>

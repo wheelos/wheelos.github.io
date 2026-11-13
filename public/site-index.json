@@ -6,7 +6,7 @@
     "zh-CN",
     "en"
   ],
-  "bilingual_pairs": 25,
+  "bilingual_pairs": 26,
   "authority_model": {
     "safety_or_performance_claim": "Use evidence/registry.json and the linked verified or partially verified record. A product page alone is insufficient.",
     "offered_configuration_or_price": "Use the product page for scope and request a formal quotation; do not infer validation.",
@@ -1203,78 +1203,155 @@
       "status_code": "design-guidance",
       "languages": {
         "zh-CN": {
-          "title": "自动驾驶项目交付与试点流程",
-          "description": "像建房子一样展示自动驾驶短途运输项目的场景调研、方案设计、集成、验证、试点和规模化过程。",
+          "title": "从需求沟通到试点部署",
+          "description": "用五个客户里程碑展示自动驾驶短途运输项目从需求沟通、场景评估、方案设计、单线路试点到扩展决策的过程。",
           "route": "/solutions/delivery-process",
           "url": "https://www.wheelos.cn/solutions/delivery-process",
           "content_type": "delivery",
           "status": "设计建议",
           "status_code": "design-guidance",
           "claim_type": "design-guidance",
-          "scope": "WheelOS 短途自动驾驶运输项目的规划与交付方法",
+          "scope": "WheelOS 短途自动驾驶运输项目的客户交付与试点方法",
           "keywords": [
             "交付流程",
-            "试点",
+            "试点部署",
+            "需求沟通",
             "现场调研",
-            "集成",
-            "标定",
-            "验证",
-            "运营指标",
-            "证据包"
+            "方案设计",
+            "验收指标"
           ],
           "evidence_ids": [],
-          "decision_summary": "把项目拆成可检查的阶段，每个阶段都有客户可见交付物、通过条件和未验证边界；未通过前一阶段不进入下一阶段。",
+          "decision_summary": "先验证一条线路和一类货物，再决定是否扩展；每个里程碑都有输入、交付物和通过条件。",
           "best_for": [
-            "受控场景试点",
+            "单线路试点",
             "固定路线运输",
-            "车辆和底盘集成",
-            "可量化运营指标"
+            "可量化的运营指标",
+            "分阶段投资"
           ],
           "not_for": [
             "跳过现场评估直接部署",
             "未确认底盘就承诺运行",
-            "无证据即宣称量产"
+            "没有证据就宣称量产"
           ],
-          "next_action": "从场景调研开始，明确任务、运行边界、车辆条件、验收指标和阶段负责人。",
+          "next_action": "先完成场景适配判断，再准备货物、起终点、频次、车辆和当前成本信息。",
           "cta_url": "mailto:support@wheelos.cn?subject=WheelOS%20pilot%20delivery%20plan",
           "source_path": "solutions/delivery-process.md"
         },
         "en": {
-          "title": "Autonomous Project Delivery and Pilot Process",
-          "description": "A transparent, house-building-style process for autonomous short-distance transport projects from discovery through integration, validation, pilot and scale.",
+          "title": "From Requirements to Pilot Deployment",
+          "description": "A five-milestone customer journey from requirements and scenario assessment through solution design, a single-route pilot and scale-up decision.",
           "route": "/en/solutions/delivery-process",
           "url": "https://www.wheelos.cn/en/solutions/delivery-process",
           "content_type": "delivery",
           "status": "design guidance",
           "status_code": "design-guidance",
           "claim_type": "design-guidance",
-          "scope": "Planning and delivery method for WheelOS short-distance autonomous transport projects",
+          "scope": "Customer delivery and pilot method for WheelOS short-distance autonomous transport projects",
           "keywords": [
             "delivery process",
-            "pilot",
-            "site assessment",
-            "integration",
-            "calibration",
-            "validation",
-            "operations metrics",
-            "evidence pack"
+            "pilot deployment",
+            "requirements",
+            "site survey",
+            "solution design",
+            "acceptance metrics"
           ],
           "evidence_ids": [],
-          "decision_summary": "Break the project into reviewable stages with customer-visible deliverables, exit criteria and unresolved boundaries. Do not advance without passing the previous gate.",
+          "decision_summary": "Validate one route and one cargo type before deciding whether to expand. Every milestone has inputs, deliverables and exit criteria.",
           "best_for": [
-            "controlled-site pilots",
+            "single-route pilots",
             "fixed-route transport",
-            "vehicle and chassis integration",
-            "measurable operating metrics"
+            "measurable operating metrics",
+            "staged investment"
           ],
           "not_for": [
-            "deployment without site assessment",
+            "deployment without a site assessment",
             "operating commitments before chassis confirmation",
             "production claims without evidence"
           ],
-          "next_action": "Start with application discovery and define the task, operating boundary, vehicle conditions, acceptance metrics and stage owners.",
+          "next_action": "Complete the scenario fit assessment, then prepare cargo, origins and destinations, frequency, vehicle and current cost data.",
           "cta_url": "mailto:support@wheelos.cn?subject=WheelOS%20pilot%20delivery%20plan",
           "source_path": "en/solutions/delivery-process.md"
+        }
+      }
+    },
+    {
+      "logical_id": "SOLUTIONS-FIT-ASSESSMENT",
+      "translation_key": "solutions/fit-assessment.md",
+      "content_type": "assessment",
+      "status": "设计建议",
+      "status_code": "design-guidance",
+      "languages": {
+        "zh-CN": {
+          "title": "自动驾驶场景适配判断",
+          "description": "通过运输需求、线路、车辆与货物、安全合规和经济性五道关卡，判断短途运输场景是否值得进入现场评估。",
+          "route": "/solutions/fit-assessment",
+          "url": "https://www.wheelos.cn/solutions/fit-assessment",
+          "content_type": "assessment",
+          "status": "设计建议",
+          "status_code": "design-guidance",
+          "claim_type": "design-guidance",
+          "scope": "企业短途自动驾驶运输项目的初步适用性筛选",
+          "keywords": [
+            "场景评估",
+            "自动驾驶适配",
+            "固定路线",
+            "安全合规",
+            "经济性",
+            "试点"
+          ],
+          "evidence_ids": [],
+          "decision_summary": "五道关卡全部回答后，工具会给出“进入现场评估、补齐信息或当前不建议部署”的本地结论。",
+          "best_for": [
+            "高频固定线路",
+            "明确运营主体",
+            "可管理场地",
+            "可估算运营成本"
+          ],
+          "not_for": [
+            "合规责任未落实",
+            "低频偶发运输",
+            "无明确负责人和预算",
+            "仅做无人驾驶展示"
+          ],
+          "next_action": "完成五步判断，打印或复制摘要，再决定是否开展现场调研。",
+          "cta_url": "mailto:support@wheelos.cn?subject=WheelOS%20scenario%20fit%20assessment",
+          "source_path": "solutions/fit-assessment.md"
+        },
+        "en": {
+          "title": "Autonomous Driving Scenario Fit Assessment",
+          "description": "Assess short-distance transport opportunities across demand, routes, vehicle and cargo, safety and compliance, and economics.",
+          "route": "/en/solutions/fit-assessment",
+          "url": "https://www.wheelos.cn/en/solutions/fit-assessment",
+          "content_type": "assessment",
+          "status": "design guidance",
+          "status_code": "design-guidance",
+          "claim_type": "design-guidance",
+          "scope": "Initial suitability screening for enterprise short-distance autonomous transport projects",
+          "keywords": [
+            "scenario assessment",
+            "autonomous-driving fit",
+            "fixed routes",
+            "safety compliance",
+            "economics",
+            "pilot"
+          ],
+          "evidence_ids": [],
+          "decision_summary": "After completing five gates, the tool returns a local recommendation to proceed to site assessment, collect more information, or defer deployment.",
+          "best_for": [
+            "frequent fixed routes",
+            "a clear operating owner",
+            "manageable sites",
+            "estimable operating cost"
+          ],
+          "not_for": [
+            "unresolved compliance responsibility",
+            "infrequent transport",
+            "no clear owner or budget",
+            "autonomous driving as a demonstration only"
+          ],
+          "next_action": "Complete the five steps, print or copy the summary, then decide whether to start a site survey.",
+          "cta_url": "mailto:support@wheelos.cn?subject=WheelOS%20scenario%20fit%20assessment",
+          "source_path": "en/solutions/fit-assessment.md"
         }
       }
     },

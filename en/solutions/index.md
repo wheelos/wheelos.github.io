@@ -23,7 +23,8 @@ aside: false
     For factories, hospitals, retailers, logistics parks and large institutions, WheelOS combines a pre-integrated autonomous-driving kit, vehicle/site adaptation and project services. Validate the transport task first, then select the technical and commercial structure.
   </p>
   <div class="solution-actions">
-    <a class="primary" href="/en/solutions/applications">Assess my application</a>
+    <a class="primary" href="/en/solutions/fit-assessment">Start the fit assessment</a>
+    <a href="/en/solutions/applications">Explore six applications</a>
     <a href="/en/solutions/integrated-autonomous-driving-kit">Explore the integrated kit</a>
   </div>
 </div>

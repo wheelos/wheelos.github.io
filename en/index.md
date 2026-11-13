@@ -18,8 +18,8 @@ hero:
   tagline: For factories, hospitals, retailers, logistics parks and large institutions, assess the application first, then integrate and validate it with a pre-integrated WheelOS platform.
   actions:
     - theme: brand
-      text: Assess your transport task
-      link: /en/solutions/applications
+      text: Start the fit assessment
+      link: /en/solutions/fit-assessment
     - theme: alt
       text: Explore the integrated kit
       link: /en/solutions/integrated-autonomous-driving-kit
@@ -27,7 +27,7 @@ hero:
 features:
   - title: Screen the application first
     details: Use frequency, routes, handoffs, operating ownership and compliance to decide whether autonomous transport fits.
-    link: /en/solutions/applications#decision-summary
+    link: /en/solutions/fit-assessment
   - title: See how the solution is built
     details: From site discovery and vehicle integration through replay validation and pilot operation, each stage has deliverables and exit criteria.
     link: /en/solutions/delivery-process
@@ -54,13 +54,15 @@ features:
 
 ## Build the project like a house
 
-Autonomous driving is not a one-step black box. We recommend seven visible stages: application discovery, boundary design, vehicle and sensors, software and data, replay validation, pilot operation and expansion assessment. Each stage exposes inputs, outputs, metrics, risks and unresolved issues.
+Autonomous driving is not a one-step black box. Customers see five milestones: requirements, initial assessment, site-specific solution design, a single-route pilot and the expansion decision. Internally these map to seven engineering substeps. Every stage exposes inputs, outputs, metrics, risks and unresolved issues.
 
-[View the seven-stage delivery process, exit criteria and pilot metrics →](/en/solutions/delivery-process)
+[View the five customer milestones, seven engineering substeps and pilot metrics →](/en/solutions/delivery-process)
 
 ## Product portfolio
 
 The core product is the [Integrated Autonomous Driving Kit](/en/solutions/integrated-autonomous-driving-kit), which combines compute, sensors, time synchronization, a baseline autonomy stack and developer tools. Site adaptation, calibration, maps, training and simulation are project services whose scope requires confirmation.
+
+The standard-kit reference price is from RMB 39,900. Final configuration, delivery, taxes and optional services require a formal quotation.
 
 ## A faster route from prototype to real-world testing
 
@@ -94,7 +96,7 @@ The kit is intended for engineering evaluation and deployment in manufacturing, 
 
 ## Verified knowledge and product scope stay separate
 
-WheelOS uses three principles: AI-native retrieval, evidence-gated knowledge and explicit product boundaries. A `Product specification` describes configuration and delivery scope. `Verified` requires a reproducible evidence record with environment, metrics, raw results and review.
+WheelOS uses four principles: AI-native retrieval, evidence-gated knowledge, explicit product boundaries and bilingual parity. A `Product specification` describes configuration and delivery scope. `Verified` requires a reproducible evidence record with environment, metrics, raw results and review.
 
 Start with [how to use this knowledge base](/en/about/how-to-read), or read the [repository principles](/en/about/principles).
 

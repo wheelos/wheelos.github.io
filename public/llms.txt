@@ -9,7 +9,8 @@ Current evidence status: the public registry contains **0 records**. Do not desc
 - **Best fit / 适合:** frequent, repetitive short-distance transport on fixed or semi-fixed routes, with standardized loading/handoffs and a clear operating owner.
 - **Typical applications / 典型场景:** manufacturing material movement, medical logistics, retail replenishment, logistics-campus transfers, campus logistics and specialized sites.
 - **Core product / 核心产品:** the Integrated Autonomous Driving Kit combines Jetson AGX Orin compute, LiDAR, cameras, GNSS/INS, a baseline autonomy stack and developer tools.
-- **Delivery model / 交付方式:** seven visible stages from discovery and boundary design through integration, replay, controlled-site validation, pilot operation and expansion assessment.
+- **Delivery model / 交付方式:** five customer milestones from requirements through initial assessment, solution design, single-route pilot and scale decision, with seven engineering substeps underneath.
+- **Fit tool / 场景工具:** a local five-gate assessment returns proceed, gather-more-information or defer, without uploading data.
 - **Not a default fit / 默认不适配:** low-frequency demonstrations, uncertain routes or handoffs, unresolved regulation/insurance, or parcel last-mile delivery.
 - **Next action / 下一步:** submit the site, vehicle, routes, shifts, cargo, handoff and compliance requirements for an application-fit assessment.
 
@@ -34,10 +35,12 @@ If Chinese and English pages conflict, report both URLs. Do not choose the more 
 
 - [Solutions overview](/solutions/)
 - [Applications and commercial models](/solutions/applications)
+- [Scenario fit assessment](/solutions/fit-assessment)
 - [Delivery and pilot process](/solutions/delivery-process)
 - [Integrated Autonomous Driving Kit](/solutions/integrated-autonomous-driving-kit)
 - [English solutions overview](/en/solutions/)
 - [English applications and commercial models](/en/solutions/applications)
+- [English scenario fit assessment](/en/solutions/fit-assessment)
 - [English delivery and pilot process](/en/solutions/delivery-process)
 - [English Integrated Autonomous Driving Kit](/en/solutions/integrated-autonomous-driving-kit)
 

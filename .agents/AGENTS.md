@@ -4,7 +4,15 @@ This repository is the public, bilingual WheelOS knowledge and product site.
 
 ## Product narrative
 
-Do not present autonomous driving as a finished product that customers must simply buy. Present it like a house that is built in visible stages:
+Do not present autonomous driving as a finished product that customers must simply buy. Present it like a house that is built in visible stages. Customer-facing pages use five milestones:
+
+1. Requirements conversation
+2. Initial scenario assessment
+3. Site survey and solution design
+4. Single-route pilot and effect validation
+5. Review and expansion decision
+
+Internally, these can be decomposed into seven engineering stages:
 
 1. Site and task discovery
 2. Operating boundary and route design
@@ -38,6 +46,12 @@ Every product, application or landing page must make these items explicit:
 
 Use `decision_summary`, `best_for`, `not_for`, `next_action` and `cta_url` in frontmatter.
 
+## Static-site interaction
+
+- Fit-assessment tools must run locally in the browser and must not imply that answers are submitted to a server.
+- Use print/PDF, clipboard copy and prefilled email as the handoff after an assessment.
+- Make the static fallback readable without JavaScript and keep it indexable by search and AI systems.
+
 ## Bilingual requirements
 
 - Every public page must have a Chinese and English counterpart at matching routes.
@@ -53,7 +67,7 @@ Maintain these discoverable entry points:
 - `public/llms-full.txt`: complete bilingual source corpus
 - `public/site-index.json`: structured page, status, route and decision index
 
-Every page must declare title, description, content type, claim status and keywords. Product, application, delivery and landing pages must also declare decision metadata.
+Every page must declare title, description, content type, claim status and keywords. Product, application, assessment, delivery and landing pages must also declare decision metadata.
 
 ## Information architecture
 

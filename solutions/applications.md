@@ -16,6 +16,11 @@ cta_url: mailto:support@wheelos.cn?subject=WheelOS%20short-distance%20transport%
 
 > 本页是场景筛选与商业决策指南，不是性能、合规或安全认证承诺。每个项目都需要验证场地、车辆、任务、法规和单位经济性。
 
+<figure class="application-visual application-visual--lead">
+  <img src="/images/solutions/applications-overview.jpg" alt="WheelOS 面向工业制造、医疗、零售和大型园区的短途自动驾驶运输场景" width="1600" height="1066" loading="eager">
+  <figcaption>WheelOS 重点探索工业、医疗、零售、仓储与大型园区之间的固定短途运输。</figcaption>
+</figure>
+
 <div id="decision-summary"></div>
 
 ## 先看结论
@@ -26,6 +31,10 @@ WheelOS 聚焦企业内部的**高频、重复、短距离物资运输**。最�
 - 每天重复发生，有稳定班次和明确运营主体。
 - 起终点、装卸区和交接流程相对固定。
 - 路线、车辆、货物、法规和保险边界可以被明确评估。
+
+**5 公里是当前重点探索范围，不是技术应用的绝对距离限制。**
+
+[用五步判断工具检查你的运输任务 →](/solutions/fit-assessment)
 
 <div id="scenario-priority"></div>
 
@@ -44,6 +53,11 @@ WheelOS 聚焦企业内部的**高频、重复、短距离物资运输**。最�
 
 ## 场景一：工业制造物料运输
 
+<figure class="application-visual">
+  <img src="/images/solutions/manufacturing.jpg" alt="工厂仓库、生产车间和物料运输车辆" width="1280" height="800" loading="lazy">
+  <figcaption>工厂仓库、车间、产线和成品库之间的物料运输。</figcaption>
+</figure>
+
 **问题：** 原材料、零部件和半成品在仓库、车间和产线之间持续流动，部分路线很短但班次频繁。
 
 **典型客户：** 汽车零部件、电子制造、家电、机械加工、食品加工企业和工业产业园。
@@ -57,6 +71,11 @@ WheelOS 聚焦企业内部的**高频、重复、短距离物资运输**。最�
 <div id="medical-logistics"></div>
 
 ## 场景二：医疗与医药物资运输
+
+<figure class="application-visual">
+  <img src="/images/solutions/medical-logistics.jpg" alt="医院院区和检验中心之间的医疗物资运输" width="1280" height="720" loading="lazy">
+  <figcaption>院区与检验中心之间的样本和医疗物资运输；实际业务须满足专业合规要求。</figcaption>
+</figure>
 
 **问题：** 医院、检验中心和医联体之间需要高频、小批量、定时运输样本和物资。
 
@@ -72,6 +91,11 @@ WheelOS 聚焦企业内部的**高频、重复、短距离物资运输**。最�
 
 ## 场景三：商业零售与连锁门店补货
 
+<figure class="application-visual">
+  <img src="/images/solutions/retail-replenishment.jpg" alt="区域仓库向周边连锁门店进行商品补货" width="1280" height="720" loading="lazy">
+  <figcaption>区域仓、配送中心和周边门店之间的小批量补货。</figcaption>
+</figure>
+
 **问题：** 区域仓或配送中心需要向周边门店持续补货，小批量、多频次配送增加组织成本。
 
 **典型客户：** 连锁便利店、生鲜连锁、商超集团、餐饮连锁、中央厨房和供应链企业。
@@ -85,6 +109,11 @@ WheelOS 聚焦企业内部的**高频、重复、短距离物资运输**。最�
 <div id="logistics-campus"></div>
 
 ## 场景四：仓储与物流园区内部运输
+
+<figure class="application-visual">
+  <img src="/images/solutions/logistics-campus.jpg" alt="仓储物流园区内仓库、月台和暂存区之间的短途运输" width="1280" height="853" loading="lazy">
+  <figcaption>仓库、装卸月台和暂存区之间的园区短驳。</figcaption>
+</figure>
 
 **问题：** 多个仓库、装卸月台、暂存区和入驻企业之间存在持续短驳需求。
 
@@ -100,6 +129,11 @@ WheelOS 聚焦企业内部的**高频、重复、短距离物资运输**。最�
 
 ## 场景五：校园、酒店与大型园区后勤
 
+<figure class="application-visual">
+  <img src="/images/solutions/campus-logistics.jpg" alt="校园、酒店和大型园区内不同楼宇之间的后勤物资运输" width="1280" height="720" loading="lazy">
+  <figcaption>食堂、洗涤中心、仓库和不同楼宇之间的后勤运输。</figcaption>
+</figure>
+
 **问题：** 餐食、布草、耗材和设备在楼宇、食堂、仓库和服务区之间持续运输，但单项任务频率可能不高。
 
 **典型客户：** 高校、医院园区、酒店集团、度假区、景区、物业公司和产业园运营方。
@@ -113,6 +147,11 @@ WheelOS 聚焦企业内部的**高频、重复、短距离物资运输**。最�
 <div id="specialized-sites"></div>
 
 ## 场景六：港口、机场与专用作业区域
+
+<figure class="application-visual">
+  <img src="/images/solutions/specialized-sites.jpg" alt="港口、机场和专用作业区域内固定线路货物运输" width="1280" height="720" loading="lazy">
+  <figcaption>港口、机场和专用作业区域内的固定线路运输。</figcaption>
+</figure>
 
 **问题：** 港口、机场、铁路货场和能源基地内部存在固定货物摆渡和水平运输。
 
@@ -202,7 +241,7 @@ WheelOS 不经营快递揽收、分拣、派件或快递驿站，也不替代医
 3. 核对底盘、传感器布置、场地地图、安全和验收指标。
 4. 在受控环境中开展最小集成与验证项目。
 
-[查看从现场调研到试点验收的七阶段交付流程 →](/solutions/delivery-process)
+[查看从需求沟通到试点部署的五阶段客户流程 →](/solutions/delivery-process)
 
 <div class="solution-cta">
   <div>
@@ -211,6 +250,7 @@ WheelOS 不经营快递揽收、分拣、派件或快递驿站，也不替代医
   </div>
   <div class="solution-actions">
     <a class="primary" href="mailto:support@wheelos.cn?subject=WheelOS%20short-distance%20transport%20assessment">提交场景评估</a>
+    <a href="/solutions/fit-assessment">先做五步判断</a>
     <a href="/solutions/delivery-process">查看交付流程</a>
     <a href="/solutions/integrated-autonomous-driving-kit">查看一体化套件</a>
   </div>

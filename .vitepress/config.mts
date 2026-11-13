@@ -13,6 +13,7 @@ const zhNav = [
     items: [
       { text: '解决方案总览', link: '/solutions/' },
       { text: '应用场景与商业模式', link: '/solutions/applications' },
+      { text: '场景适配判断', link: '/solutions/fit-assessment' },
       { text: '交付与试点流程', link: '/solutions/delivery-process' },
       { text: '一体化自动驾驶套件', link: '/solutions/integrated-autonomous-driving-kit' }
     ]
@@ -58,6 +59,7 @@ const enNav = [
     items: [
       { text: 'Solution overview', link: '/en/solutions/' },
       { text: 'Applications and commercial models', link: '/en/solutions/applications' },
+      { text: 'Scenario fit assessment', link: '/en/solutions/fit-assessment' },
       { text: 'Delivery and pilot process', link: '/en/solutions/delivery-process' },
       { text: 'Integrated Autonomous Driving Kit', link: '/en/solutions/integrated-autonomous-driving-kit' }
     ]
@@ -102,6 +104,7 @@ const zhSidebar = {
       items: [
         { text: '解决方案总览', link: '/solutions/' },
         { text: '应用场景与商业模式', link: '/solutions/applications' },
+        { text: '场景适配判断', link: '/solutions/fit-assessment' },
         { text: '交付与试点流程', link: '/solutions/delivery-process' },
         { text: '一体化自动驾驶套件', link: '/solutions/integrated-autonomous-driving-kit' }
       ]
@@ -179,6 +182,7 @@ const enSidebar = hasEnglish
           items: [
             { text: 'Solution overview', link: '/en/solutions/' },
             { text: 'Applications and commercial models', link: '/en/solutions/applications' },
+            { text: 'Scenario fit assessment', link: '/en/solutions/fit-assessment' },
             { text: 'Delivery and pilot process', link: '/en/solutions/delivery-process' },
             {
               text: 'Integrated Autonomous Driving Kit',

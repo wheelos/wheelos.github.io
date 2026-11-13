@@ -22,7 +22,8 @@ aside: false
     面向工厂、医院、零售、物流园区和大型机构，提供预集成自动驾驶套件、车辆场景适配与项目服务。先验证运输任务是否适合，再选择技术配置和商业模式。
   </p>
   <div class="solution-actions">
-    <a class="primary" href="/solutions/applications">评估我的场景</a>
+    <a class="primary" href="/solutions/fit-assessment">开始场景适配判断</a>
+    <a href="/solutions/applications">查看六类应用场景</a>
     <a href="/solutions/integrated-autonomous-driving-kit">查看一体化套件</a>
   </div>
 </div>

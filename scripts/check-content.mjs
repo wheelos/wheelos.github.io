@@ -4,6 +4,8 @@ import { join } from 'node:path'
 import { statusCodes } from './content-status.mjs'
 
 const roots = ['about', 'knowledge', 'resources', 'practice', 'evidence', 'organization', 'roadmap', 'solutions']
+const registry = JSON.parse(await readFile('evidence/registry.json', 'utf8'))
+const evidenceById = new Map(registry.records.map((record) => [record.id, record]))
 
 function parseFrontmatter(source, path) {
   if (!source.startsWith('---\n')) throw new Error(`${path}: missing frontmatter`)
@@ -37,6 +39,14 @@ function walk(directory) {
   return pages
 }
 
+function parseList(value = '') {
+  return value
+    .replace(/^\[|\]$/g, '')
+    .split(',')
+    .map((item) => item.trim().replace(/^['"]|['"]$/g, ''))
+    .filter(Boolean)
+}
+
 function pagePaths() {
   const pages = ['index.md']
   for (const root of roots) {
@@ -56,10 +66,25 @@ async function validatePage(path, expected) {
 
   const code = statusCodes.get(frontmatter.status)
   if (!code) throw new Error(`${path}: unknown status "${frontmatter.status}"`)
-  if (code === 'verified' && !frontmatter.evidence_ids) {
-    throw new Error(`${path}: verified pages require evidence_ids`)
+  const evidenceIds = parseList(frontmatter.evidence_ids)
+  if (code === 'verified' || code === 'partially-verified') {
+    if (evidenceIds.length === 0) {
+      throw new Error(`${path}: ${code} pages require at least one evidence ID`)
+    }
+    for (const evidenceId of evidenceIds) {
+      const record = evidenceById.get(evidenceId)
+      if (!record) {
+        throw new Error(`${path}: unknown evidence ID ${evidenceId}`)
+      }
+      if (code === 'verified' && record.status !== '已验证') {
+        throw new Error(`${path}: evidence ${evidenceId} is not verified`)
+      }
+      if (code === 'partially-verified' && !['已验证', '部分验证'].includes(record.status)) {
+        throw new Error(`${path}: evidence ${evidenceId} has insufficient status`)
+      }
+    }
   }
-  if (['product', 'application', 'delivery', 'landing'].includes(frontmatter.content_type)) {
+  if (['product', 'application', 'assessment', 'delivery', 'landing'].includes(frontmatter.content_type)) {
     for (const field of ['decision_summary', 'best_for', 'not_for', 'next_action', 'cta_url']) {
       if (!frontmatter[field]) {
         throw new Error(`${path}: ${frontmatter.content_type} page requires ${field}`)
@@ -74,6 +99,7 @@ async function validatePage(path, expected) {
     status: frontmatter.status,
     status_code: code,
     content_type: frontmatter.content_type,
+    evidence_ids: evidenceIds,
     ...expected
   }
 }
@@ -96,6 +122,9 @@ for (const zhPath of zhPages) {
   if (zh.content_type !== en.content_type) {
     throw new Error(`${zhPath}: content_type mismatch ${zh.content_type} vs ${en.content_type}`)
   }
+  if (JSON.stringify(zh.evidence_ids) !== JSON.stringify(en.evidence_ids)) {
+    throw new Error(`${zhPath}: evidence_ids mismatch between languages`)
+  }
 
   index.push(zh, en)
 }
@@ -105,29 +134,61 @@ const productPaths = [
   'en/solutions/integrated-autonomous-driving-kit.md'
 ]
 const protectedProductFacts = [
-  ['price', /39,900/],
-  ['AI compute', /200\s*TOPS/i],
-  ['memory', /32\s*(?:G|GB)/i],
-  ['storage', /512\s*GB/i],
-  ['LiDAR channels', /16[\s-]*(?:line|线)/i],
-  ['camera count', /4\s*[×x]/i],
-  ['LiDAR range', /120\s*m/i],
-  ['camera resolution', /1280\s*[×x]\s*720/i],
-  ['camera frame rate', /30\s*fps/i],
-  ['GNSS/INS update rate', /100\s*Hz/i],
-  ['controller power', /80\s*W/i],
-  ['input voltage', /9[–-]36\s*V/i],
-  ['operating temperature', /-20°C[^\n]{0,80}\+?60°C/],
-  ['ingress protection', /IP65/i]
+  ['price', /(?:(?:RMB|CNY)\s*(\d[\d,]+)|(\d[\d,]+)\s*元)/gi],
+  ['AI compute', /(\d+)\s*TOPS/gi],
+  ['memory', /(\d+)\s*(?:G|GB)\s*LPDDR5/gi],
+  ['storage', /(\d+)\s*GB\s*NVMe/gi],
+  ['LiDAR channels', /(\d+)[\s-]*(?:line|线)/gi],
+  ['camera count', /(\d+)\s*[×x]\s*(?:车规|automotive)/gi],
+  ['LiDAR range', /(\d+)\s*m\s*@?\s*(?:10%|at\s+10%)/gi],
+  ['camera resolution', /(1280)\s*[×x]\s*(720)/gi],
+  ['camera frame rate', /(\d+)\s*fps/gi],
+  ['GNSS/INS update rate', /(?:更新率[^\n]{0,20}?(\d+)\s*Hz|(\d+)\s*Hz[^\n]{0,20}?update rate)/gi],
+  ['controller power', /(?:典型功耗约\s*(\d+)\s*W|(\d+)\s*W\s*typical)/gi],
+  ['input voltage', /(9)[–-](36)\s*V/gi],
+  ['operating temperature', /(-20)°C[^\n]{0,80}\+?(60)°C/gi],
+  ['ingress protection', /(IP65)/gi]
 ]
 
+const productFactValues = new Map()
 for (const path of productPaths) {
   const source = await readFile(path, 'utf8')
+  const values = new Map()
   for (const [name, pattern] of protectedProductFacts) {
-    if (!pattern.test(source)) {
+    const matches = [...source.matchAll(pattern)].map((match) =>
+      match.slice(1).filter(Boolean).join('x').replaceAll(',', '')
+    )
+    if (matches.length === 0) {
       throw new Error(`${path}: missing protected product fact: ${name}`)
     }
+    const unique = [...new Set(matches)]
+    if (unique.length !== 1) {
+      throw new Error(`${path}: conflicting ${name} values: ${unique.join(', ')}`)
+    }
+    values.set(name, unique[0])
   }
+  productFactValues.set(path, values)
+}
+
+const [zhProductPath, enProductPath] = productPaths
+for (const [name] of protectedProductFacts) {
+  const zhValue = productFactValues.get(zhProductPath).get(name)
+  const enValue = productFactValues.get(enProductPath).get(name)
+  if (zhValue !== enValue) {
+    throw new Error(`${name}: bilingual value mismatch ${zhValue} vs ${enValue}`)
+  }
+}
+
+const zhLanding = await readFile('index.md', 'utf8')
+const enLanding = await readFile('en/index.md', 'utf8')
+if (!/39,900/.test(zhLanding) || !/39,900/.test(enLanding)) {
+  throw new Error('landing pages: reference price must appear in both languages')
+}
+if (!zhLanding.includes('不是已认证的量产自动驾驶系统') || !enLanding.includes('not a certified production autonomous-driving system')) {
+  throw new Error('landing pages: production-scope disclaimer missing')
+}
+if (!zhLanding.includes('四项原则') || !/four principles/i.test(enLanding)) {
+  throw new Error('landing pages: principle count mismatch')
 }
 
 console.log(`content check passed: ${zhPages.length} bilingual page pairs, ${index.length} pages`)

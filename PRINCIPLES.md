@@ -10,7 +10,7 @@
 
 - 每个公开主题使用稳定、可链接的 Markdown 页面，并提供中文与英文路由。
 - 每个页面明确内容类型、适用范围、关键词、结论状态和边界。
-- 根目录提供 `llms.txt`、`llms-full.txt`、`content-index.json`、`robots.txt` 和 sitemap。
+- 根目录提供 `llms.txt`、`llms-full.txt`、`site-index.json`、`robots.txt` 和 sitemap。
 - 结论可以追溯至具体页面、证据 ID、代码提交、产品报价或实验记录。
 - 优先使用“问题—症状—约束—方案—结果—边界”的结构，而不是只罗列概念。
 - 机器索引与正文冲突时，Agent 必须报告冲突，不得自行选择更有利的结论。

@@ -16,6 +16,11 @@ cta_url: mailto:support@wheelos.cn?subject=WheelOS%20short-distance%20transport%
 
 > This page is an application-selection and business-decision guide, not a performance, regulatory or safety certification. Every project must validate the site, vehicle, tasks, regulations and unit economics.
 
+<figure class="application-visual application-visual--lead">
+  <img src="/images/solutions/applications-overview.jpg" alt="WheelOS short-distance autonomous transport applications in manufacturing, healthcare, retail and large campuses" width="1600" height="1066" loading="eager">
+  <figcaption>WheelOS focuses on fixed short-distance transport across manufacturing, healthcare, retail, logistics and large campuses.</figcaption>
+</figure>
+
 <div id="decision-summary"></div>
 
 ## Decision summary
@@ -26,6 +31,10 @@ WheelOS focuses on **frequent, repetitive, short-distance material transport** i
 - The task repeats every day with stable shifts and a clear operating owner.
 - Origins, destinations, loading areas and handoffs are relatively fixed.
 - Route, vehicle, cargo, regulatory and insurance boundaries can be assessed.
+
+**5 km is the current focus for exploration, not an absolute technical limit.**
+
+[Check your transport task with the five-gate assessment →](/en/solutions/fit-assessment)
 
 <div id="scenario-priority"></div>
 
@@ -44,6 +53,11 @@ WheelOS focuses on **frequent, repetitive, short-distance material transport** i
 
 ## 1. Manufacturing material transport
 
+<figure class="application-visual">
+  <img src="/images/solutions/manufacturing.jpg" alt="Material transport between factory warehouses, workshops and production lines" width="1280" height="800" loading="lazy">
+  <figcaption>Material movement among factory warehouses, workshops, production lines and finished-goods stores.</figcaption>
+</figure>
+
 **Problem:** Raw materials, parts and work-in-progress move continuously among warehouses, workshops and production lines. Some routes are short but run many times per day.
 
 **Typical customers:** Automotive-parts, electronics, appliance, machining and food manufacturers; industrial parks.
@@ -57,6 +71,11 @@ WheelOS focuses on **frequent, repetitive, short-distance material transport** i
 <div id="medical-logistics"></div>
 
 ## 2. Medical and pharmaceutical transport
+
+<figure class="application-visual">
+  <img src="/images/solutions/medical-logistics.jpg" alt="Medical supply transport between hospitals and laboratories" width="1280" height="720" loading="lazy">
+  <figcaption>Specimen and medical-supply transport among hospital campuses and laboratories; professional compliance requirements still apply.</figcaption>
+</figure>
 
 **Problem:** Hospitals, laboratories and hospital groups need frequent, small-batch, time-defined movement of specimens and supplies.
 
@@ -72,6 +91,11 @@ WheelOS focuses on **frequent, repetitive, short-distance material transport** i
 
 ## 3. Retail and chain-store replenishment
 
+<figure class="application-visual">
+  <img src="/images/solutions/retail-replenishment.jpg" alt="Regional warehouse replenishing nearby chain stores" width="1280" height="720" loading="lazy">
+  <figcaption>Small-batch replenishment from a regional warehouse or distribution center to nearby stores.</figcaption>
+</figure>
+
 **Problem:** A regional warehouse or distribution center replenishes nearby stores frequently. Small batches reduce store inventory but increase delivery organization cost.
 
 **Typical customers:** Convenience and fresh-food chains, supermarkets, restaurant chains, central kitchens and supply-chain companies.
@@ -85,6 +109,11 @@ WheelOS focuses on **frequent, repetitive, short-distance material transport** i
 <div id="logistics-campus"></div>
 
 ## 4. Warehouse and logistics-campus transport
+
+<figure class="application-visual">
+  <img src="/images/solutions/logistics-campus.jpg" alt="Short-distance transport among warehouses, docks and staging areas in a logistics campus" width="1280" height="853" loading="lazy">
+  <figcaption>Short-haul movement among warehouses, loading docks and staging areas.</figcaption>
+</figure>
 
 **Problem:** Multiple warehouses, docks, staging areas and tenant operations create continuous short-haul transfer demand.
 
@@ -100,6 +129,11 @@ WheelOS focuses on **frequent, repetitive, short-distance material transport** i
 
 ## 5. Campus, hotel and large-venue logistics
 
+<figure class="application-visual">
+  <img src="/images/solutions/campus-logistics.jpg" alt="Facility logistics among buildings in a campus, hotel or large venue" width="1280" height="720" loading="lazy">
+  <figcaption>Logistics among kitchens, laundry, warehouses and different buildings.</figcaption>
+</figure>
+
 **Problem:** Food, linen, supplies and equipment move among buildings, kitchens, warehouses and service areas, but any single task may be infrequent.
 
 **Typical customers:** Universities, hospital campuses, hotel groups, resorts, scenic areas, property managers and industrial-park operators.
@@ -113,6 +147,11 @@ WheelOS focuses on **frequent, repetitive, short-distance material transport** i
 <div id="specialized-sites"></div>
 
 ## 6. Ports, airports and specialized operating areas
+
+<figure class="application-visual">
+  <img src="/images/solutions/specialized-sites.jpg" alt="Fixed-route cargo transport inside a port, airport or specialized operating area" width="1280" height="720" loading="lazy">
+  <figcaption>Fixed-route transport inside ports, airports and specialized operating areas.</figcaption>
+</figure>
 
 **Problem:** Ports, airports, rail yards and energy sites need fixed cargo shuttling and horizontal transport inside a defined operating area.
 
@@ -202,7 +241,7 @@ WheelOS does not operate parcel collection, sorting, last-mile delivery or parce
 3. Review chassis, sensor placement, site map, safety and acceptance metrics.
 4. Run a minimum integration and validation project in a controlled environment.
 
-[See the seven-stage path from discovery to pilot acceptance →](/en/solutions/delivery-process)
+[See the five-milestone customer journey from requirements to pilot deployment →](/en/solutions/delivery-process)
 
 <div class="solution-cta">
   <div>
@@ -211,6 +250,7 @@ WheelOS does not operate parcel collection, sorting, last-mile delivery or parce
   </div>
   <div class="solution-actions">
     <a class="primary" href="mailto:support@wheelos.cn?subject=WheelOS%20short-distance%20transport%20assessment">Request an assessment</a>
+    <a href="/en/solutions/fit-assessment">Start the five-gate check</a>
     <a href="/en/solutions/delivery-process">View the delivery process</a>
     <a href="/en/solutions/integrated-autonomous-driving-kit">View the integrated kit</a>
   </div>

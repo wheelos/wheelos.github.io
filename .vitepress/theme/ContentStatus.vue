@@ -17,6 +17,7 @@ const typeLabels = {
   practice: { 'zh-CN': '实践记录', en: 'Practice records' },
   product: { 'zh-CN': '产品与解决方案', en: 'Product and solution' },
   application: { 'zh-CN': '应用场景评估', en: 'Application assessment' },
+  assessment: { 'zh-CN': '场景适配判断', en: 'Scenario fit assessment' },
   delivery: { 'zh-CN': '交付与试点流程', en: 'Delivery and pilot process' },
   resources: { 'zh-CN': '工程资源', en: 'Engineering resources' },
   organization: { 'zh-CN': '社区信息', en: 'Community' },

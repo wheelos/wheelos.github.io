@@ -17,8 +17,8 @@ hero:
   tagline: 面向工厂、医院、零售、物流园区和大型机构，先评估场景，再用一体化套件完成车辆集成、验证和项目交付。
   actions:
     - theme: brand
-      text: 评估运输场景
-      link: /solutions/applications
+      text: 开始场景适配判断
+      link: /solutions/fit-assessment
     - theme: alt
       text: 查看一体化套件
       link: /solutions/integrated-autonomous-driving-kit
@@ -26,7 +26,7 @@ hero:
 features:
   - title: 先筛选场景
     details: 用运输频率、路线、交接、运营主体和合规条件判断是否适合自动驾驶。
-    link: /solutions/applications#decision-summary
+    link: /solutions/fit-assessment
   - title: 公开搭建过程
     details: 从现场调研、车辆集成、回放验证到试点运营，每个阶段都有交付物和通过条件。
     link: /solutions/delivery-process
@@ -53,15 +53,15 @@ features:
 
 ## 像建房子一样推进项目
 
-自动驾驶不是一次性交付的“黑盒”。我们建议把项目拆成场景调研、边界设计、车辆与传感器、软件与数据、回放验证、试点运行和扩展评估七个阶段。每个阶段都让客户看到输入、输出、指标、风险和未解决问题。
+自动驾驶不是一次性交付的“黑盒”。客户侧分为需求沟通、初步评估、现场方案设计、单线路试点和扩展决策五个里程碑；内部再拆成七个工程子步骤。每个阶段都让客户看到输入、输出、指标、风险和未解决问题。
 
-[查看七阶段交付流程、通过条件和试点指标 →](/solutions/delivery-process)
+[查看五阶段客户流程、七个工程子步骤和试点指标 →](/solutions/delivery-process)
 
 ## 产品组合
 
 WheelOS 当前的核心产品是[一体化自动驾驶开发套件](/solutions/integrated-autonomous-driving-kit)：它把计算、传感器、时间同步、基础软件栈和开发工具组合成可集成的低速自动驾驶平台。场景适配、现场标定、地图、培训和仿真测试属于项目服务，具体范围需要确认。
 
-面向厂内物流、医疗物资、门店补货、仓储短驳和园区后勤等低速运输任务，提供经过预集成与测试的软硬件基础平台。标准套件参考价格为人民币 39,900 元起，并可根据项目增加现场标定、功能定制、高精度地图和仿真测试服务。
+面向厂内物流、医疗物资、门店补货、仓储短驳和园区后勤等低速运输任务，提供预集成的软硬件基础平台。标准套件参考价格为人民币 39,900 元起，并可根据项目增加现场标定、功能定制、高精度地图和仿真测试服务。该套件不是已认证的量产自动驾驶系统，场地安全、法规准入和车辆级验证仍属于项目工作。
 
 [查看解决方案与完整规格 →](/solutions/integrated-autonomous-driving-kit)
 
@@ -93,7 +93,7 @@ WheelOS 当前的核心产品是[一体化自动驾驶开发套件](/solutions/i
 
 <div class="solution-cta">
   <div>
-    <h2>从可验证的开发平台开始</h2>
+    <h2>从可逐步验证的开发平台开始</h2>
     <p>无需从零组合传感器、计算平台、软件栈和车辆接口。</p>
   </div>
   <div class="solution-actions">
