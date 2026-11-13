@@ -1,0 +1,1 @@
+const s="/images/solutions/applications-overview.jpg",i="/images/solutions/manufacturing.jpg",o="/images/solutions/medical-logistics.jpg",t="/images/solutions/retail-replenishment.jpg",a="/images/solutions/logistics-campus.jpg",p="/images/solutions/campus-logistics.jpg",e="/images/solutions/specialized-sites.jpg";export{s as _,i as a,o as b,t as c,a as d,p as e,e as f};
